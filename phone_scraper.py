@@ -382,7 +382,8 @@ class PhoneScraper:
                 
                 writer.writeheader()
                 for row in self.phone_contacts:
-                    writer.writerow(row)
+                    safe_row = {key: row.get(key, '') for key in fieldnames}
+                    writer.writerow(safe_row)
             
             logger.info(f"结果已导出到 {filename}")
             logger.info(f"共找到 {len(self.phone_contacts)} 页包含联系信息")

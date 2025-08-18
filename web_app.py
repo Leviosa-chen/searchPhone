@@ -25,6 +25,9 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # 任务注册表：task_id -> {'queue': [], 'done': bool}
 TASKS = {}
 
+# 默认最大页数（可用环境变量 MAX_PAGES 覆盖）
+DEFAULT_MAX_PAGES = int(os.environ.get('MAX_PAGES', '200'))
+
 
 def is_valid_http_url(url: str) -> bool:
     try:
@@ -42,27 +45,55 @@ INDEX_HTML = """
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>手机号爬取器</title>
     <style>
-      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; margin: 40px auto; max-width: 720px; line-height: 1.6; color: #222; }
-      h1 { font-size: 22px; }
-      form { display: flex; gap: 8px; margin: 16px 0; }
-      input[type=url] { flex: 1; padding: 10px 12px; border: 1px solid #ccc; border-radius: 6px; }
-      button { padding: 10px 14px; background: #0d6efd; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
-      button:disabled { background: #7aa7f8; cursor: not-allowed; }
-      .note { color: #555; font-size: 14px; }
-      .result { margin-top: 16px; padding: 12px; border: 1px solid #eee; border-radius: 6px; }
-      .error { color: #b00020; }
-      ul { padding-left: 18px; }
+      :root { --primary: #0d6efd; --bg: #f6f8fa; --text: #222; --muted: #6b7280; --border: #e5e7eb; }
+      * { box-sizing: border-box; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; margin: 0; background: var(--bg); color: var(--text); }
+      .container { max-width: 820px; margin: 40px auto; padding: 0 16px; }
+      .card { background: #fff; border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); overflow: hidden; }
+      .card-header { padding: 18px 20px; background: linear-gradient(180deg, #ffffff, #fafafa); border-bottom: 1px solid var(--border); }
+      .card-title { margin: 0; font-size: 20px; }
+      .card-body { padding: 18px 20px; }
+      form { display: grid; grid-template-columns: 1fr 120px auto; gap: 10px; align-items: center; }
+      label { font-size: 13px; color: var(--muted); display: block; margin-bottom: 6px; }
+      .field { display: flex; flex-direction: column; }
+      input[type=url], input[type=number] { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; outline: none; transition: border-color .15s ease; background: #fff; }
+      input[type=url]:focus, input[type=number]:focus { border-color: var(--primary); }
+      button { height: 40px; padding: 0 16px; background: var(--primary); color: #fff; border: none; border-radius: 8px; cursor: pointer; transition: transform .02s ease, background .15s ease; }
+      button:hover { background: #0b5ed7; }
+      button:active { transform: translateY(1px); }
+      button:disabled { background: #9ab5fb; cursor: not-allowed; }
+      .note { color: var(--muted); font-size: 14px; margin-top: 4px; }
+      .status { margin-top: 12px; color: #374151; font-size: 14px; }
+      .result { margin-top: 16px; padding: 14px; border: 1px dashed var(--border); border-radius: 10px; background: #fafcff; }
+      .result a { color: var(--primary); text-decoration: none; }
+      .result a:hover { text-decoration: underline; }
+      ul { padding-left: 18px; margin: 8px 0 0; }
     </style>
   </head>
   <body>
-    <h1>输入网址，抓取页面中的手机号</h1>
-    <div class="note">后端会验证链接是否可用，并限制爬取页数以避免长时间运行。</div>
-    <form id="form">
-      <input id="url" type="url" placeholder="https://example.com" required />
-      <button id="submit" type="submit">开始爬取</button>
-    </form>
-    <div id="status" class="note"></div>
-    <div id="result" class="result" style="display:none"></div>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h1 class="card-title">输入网址，抓取页面中的手机号</h1>
+        </div>
+        <div class="card-body">
+          <div class="note">后端会验证链接是否可用。可设置最大爬取页数（默认 200）。</div>
+          <form id="form">
+            <div class="field">
+              <label for="url">目标网址</label>
+              <input id="url" type="url" placeholder="https://example.com" required />
+            </div>
+            <div class="field">
+              <label for="maxPages">最大页数</label>
+              <input id="maxPages" type="number" min="1" max="10000" value="200" />
+            </div>
+            <button id="submit" type="submit">开始爬取</button>
+          </form>
+          <div id="status" class="status"></div>
+          <div id="result" class="result" style="display:none"></div>
+        </div>
+      </div>
+    </div>
 
     <script>
       const form = document.getElementById('form');
@@ -74,12 +105,11 @@ INDEX_HTML = """
       let pendingLinks = null;
 
       function renderLinks() {
-        if (!pendingLinks) return;
-        let html = '<div>爬取成功，下载文件：</div><ul>';
-        if (pendingLinks.csv) html += `<li><a href="${pendingLinks.csv}" target="_blank">CSV</a></li>`;
-        if (pendingLinks.json) html += `<li><a href="${pendingLinks.json}" target="_blank">JSON</a></li>`;
-        if (pendingLinks.docx) html += `<li><a href="${pendingLinks.docx}" target="_blank">DOCX</a></li>`;
-        html += '</ul>';
+        if (!pendingLinks || !pendingLinks.docx) return;
+        const href = pendingLinks.docx;
+        const html = `<div>爬取成功，下载文档：</div>
+          <ul><li><a href="${href}" target="_blank">下载 DOCX</a></li></ul>
+          <div class="note">下载链接：<span id="dl-url">${href}</span></div>`;
         resultEl.innerHTML = html;
         resultEl.style.display = 'block';
       }
@@ -89,7 +119,10 @@ INDEX_HTML = """
         evt.onmessage = (m) => {
           try {
             const evtData = JSON.parse(m.data);
-            if (evtData.type === 'site_title') {
+            if (evtData.type === 'start') {
+              const mp = evtData.max_pages == null ? '未设置' : evtData.max_pages;
+              statusEl.textContent = `开始任务：${evtData.url}，页数限制：${mp}`;
+            } else if (evtData.type === 'site_title') {
               statusEl.textContent = `网站：${evtData.title}`;
             } else if (evtData.type === 'page_start') {
               statusEl.textContent = `正在爬取第 ${evtData.index} 页... 待爬取 ${evtData.queue} 页`;
@@ -103,6 +136,11 @@ INDEX_HTML = """
               renderLinks();
             } else if (evtData.type === 'done') {
               statusEl.textContent = `完成：共 ${evtData.pages} 页，手机号 ${evtData.phones}，联系人 ${evtData.contacts}`;
+              if (evtData.files) {
+                pendingLinks = evtData.files;
+                renderLinks();
+              }
+            } else if (evtData.type === 'stream_end') {
               evt.close();
             } else if (evtData.type === 'error') {
               statusEl.textContent = `错误：${evtData.message}`;
@@ -117,6 +155,7 @@ INDEX_HTML = """
       form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const url = urlInput.value.trim();
+        const maxPages = parseInt(document.getElementById('maxPages').value || '200', 10);
         if (!url) return;
         submitBtn.disabled = true;
         statusEl.textContent = '正在提交任务，请稍候...';
@@ -126,7 +165,7 @@ INDEX_HTML = """
           const resp = await fetch('/api/scrape', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ url })
+            body: JSON.stringify({ url, max_pages: isNaN(maxPages) ? 200 : maxPages })
           });
           const data = await resp.json();
           if (!resp.ok) {
@@ -160,6 +199,7 @@ def index():
 def scrape_api():
     data = request.get_json(silent=True) or {}
     url = (data.get('url') or '').strip()
+    max_pages_client = data.get('max_pages')
 
     if not url:
         return jsonify({ 'message': 'url 参数不能为空' }), 400
@@ -190,27 +230,30 @@ def scrape_api():
     ts = time.strftime('%Y%m%d_%H%M%S')
     safe_host = re.sub(r'[^a-zA-Z0-9_.-]', '_', urlparse(url).netloc or 'site')
     base_name = f"{safe_host}_{ts}"
-    csv_name = f"{base_name}.csv"
-    json_name = f"{base_name}.json"
     docx_name = f"{base_name}.docx"
-    csv_path = os.path.join(OUTPUT_DIR, csv_name)
-    json_path = os.path.join(OUTPUT_DIR, json_name)
     docx_path = os.path.join(OUTPUT_DIR, docx_name)
 
     # 后台线程执行抓取与导出
     import threading
     def run_task():
         try:
-            scraper.crawl_website(max_pages=200)
-            scraper.export_to_csv(csv_path)
-            scraper.export_to_json(json_path)
+            # 解析前端传入的页数限制
+            max_pages = DEFAULT_MAX_PAGES
+            try:
+                if max_pages_client is not None:
+                    mp = int(max_pages_client)
+                    if mp > 0:
+                        max_pages = mp
+            except Exception:
+                pass
+            # 爬取
+            scraper.crawl_website(max_pages=max_pages)
             scraper.export_to_docx(docx_path)
-            # 导出完成后通过事件发送可下载链接
-            emit({'type': 'files', 'files': {
-                'csv': f"/download/{csv_name}",
-                'json': f"/download/{json_name}",
-                'docx': f"/download/{docx_name}"
-            }})
+            # 仅发送 DOCX 下载链接
+            if os.path.exists(docx_path):
+                files_payload = {'docx': f"/download/{docx_name}"}
+                TASKS[task_id]['files'] = files_payload
+                emit({'type': 'files', 'files': files_payload})
         except Exception as e:
             emit({'type': 'error', 'message': str(e)})
         finally:
@@ -244,7 +287,7 @@ def events():
                 yield f"data: {__import__('json').dumps(evt, ensure_ascii=False)}\n\n"
             if q['done']:
                 # 结束前再推送一次 done（如果客户端错过）
-                yield f"data: {__import__('json').dumps({'type': 'done'}, ensure_ascii=False)}\n\n"
+                yield f"data: {__import__('json').dumps({'type': 'done', 'files': q.get('files', {})}, ensure_ascii=False)}\n\n"
                 # 推送流结束标记，便于前端关闭SSE
                 yield f"data: {__import__('json').dumps({'type': 'stream_end'}, ensure_ascii=False)}\n\n"
                 break

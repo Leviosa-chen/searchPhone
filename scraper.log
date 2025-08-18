@@ -92,3 +92,726 @@
 2025-08-18 19:17:50,636 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
 2025-08-18 19:17:51,006 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
 2025-08-18 19:17:51,006 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:20:50,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:20:50,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:20:59,837 - INFO - 127.0.0.1 - - [18/Aug/2025 19:20:59] "GET / HTTP/1.1" 200 -
+2025-08-18 19:20:59,856 - INFO - 127.0.0.1 - - [18/Aug/2025 19:20:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:21:03,657 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:21:03,657 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-18 19:21:03,657 - INFO - 127.0.0.1 - - [18/Aug/2025 19:21:03] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:21:03,664 - INFO - 127.0.0.1 - - [18/Aug/2025 19:21:03] "GET /api/events?task_id=t1755516063656 HTTP/1.1" 200 -
+2025-08-18 19:21:04,467 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:21:04,467 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:21:04,877 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:21:05,885 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:21:07,187 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:21:08,506 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:21:09,841 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:21:11,120 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:21:12,656 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:21:13,988 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:21:14,322 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:21:14,322 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:21:15,329 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:21:15,441 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:21:15,441 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:21:15,554 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:21:15,554 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:21:17,096 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:21:17,415 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:21:17,415 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:21:18,420 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:21:19,811 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:21:21,125 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:21:22,407 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:21:23,706 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:21:25,005 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:21:26,298 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:21:27,586 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:21:28,942 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:21:30,484 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:21:30,789 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:21:30,789 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:21:31,794 - INFO - 正在爬取第 21 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14333
+2025-08-18 19:21:33,124 - INFO - 正在爬取第 22 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14327
+2025-08-18 19:21:34,703 - INFO - 正在爬取第 23 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14329
+2025-08-18 19:21:36,316 - INFO - 正在爬取第 24 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14328
+2025-08-18 19:21:37,632 - INFO - 正在爬取第 25 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14336
+2025-08-18 19:21:38,946 - INFO - 正在爬取第 26 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14311
+2025-08-18 19:21:40,353 - INFO - 正在爬取第 27 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14276
+2025-08-18 19:21:41,689 - INFO - 正在爬取第 28 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14262
+2025-08-18 19:21:43,016 - INFO - 正在爬取第 29 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14238
+2025-08-18 19:21:44,302 - INFO - 正在爬取第 30 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14237
+2025-08-18 19:21:44,593 - INFO - 爬取进度: 已爬取 30 页，待爬取 140 页
+2025-08-18 19:21:44,593 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:21:45,598 - INFO - 正在爬取第 31 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14236
+2025-08-18 19:21:46,900 - INFO - 正在爬取第 32 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14235
+2025-08-18 19:21:48,207 - INFO - 正在爬取第 33 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14232
+2025-08-18 19:21:49,499 - INFO - 正在爬取第 34 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14231
+2025-08-18 19:21:50,806 - INFO - 正在爬取第 35 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14230
+2025-08-18 19:21:52,096 - INFO - 正在爬取第 36 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14229
+2025-08-18 19:21:53,366 - INFO - 正在爬取第 37 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14228
+2025-08-18 19:21:54,661 - INFO - 正在爬取第 38 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14227
+2025-08-18 19:21:55,962 - INFO - 正在爬取第 39 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14097
+2025-08-18 19:21:57,269 - INFO - 正在爬取第 40 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14096
+2025-08-18 19:21:57,561 - INFO - 爬取进度: 已爬取 40 页，待爬取 137 页
+2025-08-18 19:21:57,561 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:21:58,567 - INFO - 正在爬取第 41 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14095
+2025-08-18 19:21:59,846 - INFO - 正在爬取第 42 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14094
+2025-08-18 19:22:01,111 - INFO - 正在爬取第 43 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14093
+2025-08-18 19:22:02,361 - INFO - 正在爬取第 44 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14092
+2025-08-18 19:22:03,646 - INFO - 正在爬取第 45 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=gong_lu 
+2025-08-18 19:22:04,969 - INFO - 正在爬取第 46 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=qiao_liang 
+2025-08-18 19:22:06,233 - INFO - 正在爬取第 47 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=sui_dao 
+2025-08-18 19:22:07,538 - INFO - 正在爬取第 48 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=shi_zheng_gong_cheng 
+2025-08-18 19:22:08,840 - INFO - 正在爬取第 49 页: https://www.schdri.com/ /go.htm?k=BIM&url=cheng_guo_zhan_shi/zdgc_list  
+2025-08-18 19:22:08,985 - ERROR - 获取页面失败 https://www.schdri.com/ /go.htm?k=BIM&url=cheng_guo_zhan_shi/zdgc_list  : 404 Client Error:  for url: https://www.schdri.com/%20/go.htm?k=BIM&url=cheng_guo_zhan_shi/zdgc_list%20%20
+2025-08-18 19:22:08,985 - INFO - 正在爬取第 49 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=guo_jia_ke_ji_jin_bu_jiang 
+2025-08-18 19:22:10,286 - INFO - 正在爬取第 50 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=zhan_tian_you_jiang 
+2025-08-18 19:22:10,887 - INFO - 爬取进度: 已爬取 50 页，待爬取 170 页
+2025-08-18 19:22:10,888 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:22:11,893 - INFO - 正在爬取第 51 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=guo_ji_da_jiang 
+2025-08-18 19:22:13,218 - INFO - 正在爬取第 52 页: https://www.schdri.com/go.htm?k=jing_zhun_fu_pin&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:22:14,562 - INFO - 正在爬取第 53 页: https://www.schdri.com/go.htm?k=shi_jiu_da_zhuan_ti&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:22:15,846 - INFO - 正在爬取第 54 页: https://www.schdri.com/go.htm?k=dang_feng_lian_zheng_zhuan_ti&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:22:17,146 - INFO - 正在爬取第 55 页: https://www.schdri.com/go.htm?k=zhong_guo_meng_zhuan_ti&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:22:18,425 - INFO - 正在爬取第 56 页: https://www.schdri.com/go.htm?k=shen_du_bao_dao&url=xgly/xwzx
+2025-08-18 19:22:19,752 - INFO - 正在爬取第 57 页: https://www.schdri.com/go.htm?k=gong_lu&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:21,041 - INFO - 正在爬取第 58 页: https://www.schdri.com/go.htm?k=qiao_liang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:22,296 - INFO - 正在爬取第 59 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=sui_dao
+2025-08-18 19:22:23,617 - INFO - 正在爬取第 60 页: https://www.schdri.com/go.htm?k=shi_zheng_gong_cheng&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:23,901 - INFO - 爬取进度: 已爬取 60 页，待爬取 197 页
+2025-08-18 19:22:23,901 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:22:24,906 - INFO - 正在爬取第 61 页: https://www.schdri.com/go.htm?k=BIM&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:26,204 - INFO - 正在爬取第 62 页: https://www.schdri.com/go.htm?k=ling_dao_jian_jie&url=gong_si_gai_kuang/ling_dao_jian_jie
+2025-08-18 19:22:26,546 - INFO - 页面 https://www.schdri.com/go.htm?k=ling_dao_jian_jie&url=gong_si_gai_kuang/ling_dao_jian_jie 找到 0 个新手机号, 3 个新联系人
+2025-08-18 19:22:26,546 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:22:27,553 - INFO - 正在爬取第 63 页: https://www.schdri.com/go.htm?k=zi_zhi_zi_xin&url=gong_si_gai_kuang/zi_zhi_zi_xin
+2025-08-18 19:22:29,153 - INFO - 正在爬取第 64 页: https://www.schdri.com/go.htm?k=zu_zhi_jia_gou&url=gong_si_gai_kuang/zu_zhi_jia_gou
+2025-08-18 19:22:30,443 - INFO - 正在爬取第 65 页: https://www.schdri.com/go.htm?k=ren_li_zi_yuan&url=gong_si_gai_kuang/ren_li_zi_yuan
+2025-08-18 19:22:30,870 - INFO - 页面 https://www.schdri.com/go.htm?k=ren_li_zi_yuan&url=gong_si_gai_kuang/ren_li_zi_yuan 找到 1 个新手机号, 2 个新联系人
+2025-08-18 19:22:30,870 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:22:31,878 - INFO - 正在爬取第 66 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw
+2025-08-18 19:22:33,203 - INFO - 正在爬取第 67 页: https://www.schdri.com/go.htm?k=kan_cha_she_ji&url=xjjyw
+2025-08-18 19:22:34,477 - INFO - 正在爬取第 68 页: https://www.schdri.com/go.htm?k=ke_xue_yan_jiu&url=xjjyw
+2025-08-18 19:22:35,763 - INFO - 正在爬取第 69 页: https://www.schdri.com/go.htm?k=gong_cheng_jian_li&url=xjjyw
+2025-08-18 19:22:37,312 - INFO - 正在爬取第 70 页: https://www.schdri.com/go.htm?k=shi_yan_jian_ce&url=xjjyw
+2025-08-18 19:22:37,583 - INFO - 爬取进度: 已爬取 70 页，待爬取 212 页
+2025-08-18 19:22:37,583 - INFO - 已找到 3 个手机号，11 个联系人
+2025-08-18 19:22:38,588 - INFO - 正在爬取第 71 页: https://www.schdri.com/go.htm?k=gong_cheng_shi_gong&url=xjjyw
+2025-08-18 19:22:39,882 - INFO - 正在爬取第 72 页: https://www.schdri.com/go.htm?k=BIMji_shu&url=xjjyw
+2025-08-18 19:22:41,156 - INFO - 正在爬取第 73 页: https://www.schdri.com/go.htm?k=jie_gou_an_quan_zhi_neng_jian_ce&url=xjjyw
+2025-08-18 19:22:42,437 - INFO - 正在爬取第 74 页: https://www.schdri.com/go.htm?k=huan_jing_gong_cheng&url=xjjyw
+2025-08-18 19:22:43,712 - INFO - 正在爬取第 75 页: https://www.schdri.com/go.htm?k=shi_zheng_gong_cheng1&url=xjjyw
+2025-08-18 19:22:44,991 - INFO - 正在爬取第 76 页: https://www.schdri.com/go.htm?k=zong_he_shi_yan_jian_ce_ji_yang_hu_yi_ti_hua&url=xjjyw
+2025-08-18 19:22:46,292 - INFO - 正在爬取第 77 页: https://www.schdri.com/go.htm?k=jiao_tong_jian_ce_she_bei_ji_liang_jian_ding_zhan&url=xjjyw
+2025-08-18 19:22:47,559 - INFO - 正在爬取第 78 页: https://www.schdri.com/go.htm?k=shi_gong_jian_li&url=xjjyw
+2025-08-18 19:22:48,839 - INFO - 正在爬取第 79 页: https://www.schdri.com/go.htm?k=xin_cai_zhi_zao&url=xjjyw
+2025-08-18 19:22:50,386 - INFO - 正在爬取第 80 页: https://www.schdri.com/go.htm?k=zhi_tong_gong_si&url=xjjyw
+2025-08-18 19:22:50,674 - INFO - 爬取进度: 已爬取 80 页，待爬取 202 页
+2025-08-18 19:22:50,674 - INFO - 已找到 3 个手机号，11 个联系人
+2025-08-18 19:22:51,678 - INFO - 正在爬取第 81 页: https://www.schdri.com/go.htm?k=tie_lu_yu_gui_dao_jiao_tong&url=xjjyw
+2025-08-18 19:22:52,944 - INFO - 正在爬取第 82 页: https://www.schdri.com/go.htm?k=xin_neng_yuan_zi_xun_she_ji&url=xjjyw
+2025-08-18 19:22:54,472 - INFO - 正在爬取第 83 页: https://www.schdri.com/go.htm?k=zhan_tian_you_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:55,759 - INFO - 正在爬取第 84 页: https://www.schdri.com/go.htm?k=guo_ji_da_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:22:57,074 - INFO - 正在爬取第 85 页: https://www.schdri.com/go.htm?k=chuang_xin_ke_ji&url=cheng_guo_zhan_shi/cheng_guo_zhan_shi1
+2025-08-18 19:22:58,480 - INFO - 正在爬取第 86 页: https://www.schdri.com/go.htm?k=zhuan_ti_zhuan_lan&url=dang_jian_wen_hua/zhuan_ti_zhuan_lan
+2025-08-18 19:22:59,800 - INFO - 正在爬取第 87 页: https://www.schdri.com/go.htm?k=zhong_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:23:00,097 - INFO - 页面 https://www.schdri.com/go.htm?k=zhong_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 2 个新联系人
+2025-08-18 19:23:00,097 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:23:01,099 - INFO - 正在爬取第 88 页: https://www.schdri.com/go.htm?k=kan_cha_she_ji&url=xjjyw#main-box
+2025-08-18 19:23:02,353 - INFO - 正在爬取第 89 页: https://www.schdri.com/go.htm?k=ke_xue_yan_jiu&url=xjjyw#main-box
+2025-08-18 19:23:03,620 - INFO - 正在爬取第 90 页: https://www.schdri.com/go.htm?k=gong_cheng_jian_li&url=xjjyw#main-box
+2025-08-18 19:23:03,867 - INFO - 爬取进度: 已爬取 90 页，待爬取 222 页
+2025-08-18 19:23:03,867 - INFO - 已找到 3 个手机号，13 个联系人
+2025-08-18 19:23:04,872 - INFO - 正在爬取第 91 页: https://www.schdri.com/go.htm?k=shi_yan_jian_ce&url=xjjyw#main-box
+2025-08-18 19:23:06,150 - INFO - 正在爬取第 92 页: https://www.schdri.com/go.htm?k=gong_cheng_shi_gong&url=xjjyw#main-box
+2025-08-18 19:23:07,412 - INFO - 正在爬取第 93 页: https://www.schdri.com/go.htm?k=BIMji_shu&url=xjjyw#main-box
+2025-08-18 19:23:08,669 - INFO - 正在爬取第 94 页: https://www.schdri.com/go.htm?k=jie_gou_an_quan_zhi_neng_jian_ce&url=xjjyw#main-box
+2025-08-18 19:23:09,942 - INFO - 正在爬取第 95 页: https://www.schdri.com/go.htm?k=huan_jing_gong_cheng&url=xjjyw#main-box
+2025-08-18 19:23:11,205 - INFO - 正在爬取第 96 页: https://www.schdri.com/go.htm?k=shi_zheng_gong_cheng1&url=xjjyw#main-box
+2025-08-18 19:23:12,480 - INFO - 正在爬取第 97 页: https://www.schdri.com/go.htm?k=zong_he_shi_yan_jian_ce_ji_yang_hu_yi_ti_hua&url=xjjyw#main-box
+2025-08-18 19:23:13,759 - INFO - 正在爬取第 98 页: https://www.schdri.com/go.htm?k=jiao_tong_jian_ce_she_bei_ji_liang_jian_ding_zhan&url=xjjyw#main-box
+2025-08-18 19:23:15,042 - INFO - 正在爬取第 99 页: https://www.schdri.com/go.htm?k=shi_gong_jian_li&url=xjjyw#main-box
+2025-08-18 19:23:16,294 - INFO - 正在爬取第 100 页: https://www.schdri.com/go.htm?k=xin_cai_zhi_zao&url=xjjyw#main-box
+2025-08-18 19:23:16,563 - INFO - 爬取进度: 已爬取 100 页，待爬取 212 页
+2025-08-18 19:23:16,563 - INFO - 已找到 3 个手机号，13 个联系人
+2025-08-18 19:23:17,568 - INFO - 正在爬取第 101 页: https://www.schdri.com/go.htm?k=zhi_tong_gong_si&url=xjjyw#main-box
+2025-08-18 19:23:18,827 - INFO - 正在爬取第 102 页: https://www.schdri.com/go.htm?k=tie_lu_yu_gui_dao_jiao_tong&url=xjjyw#main-box
+2025-08-18 19:23:20,113 - INFO - 正在爬取第 103 页: https://www.schdri.com/go.htm?k=xin_neng_yuan_zi_xun_she_ji&url=xjjyw#main-box
+2025-08-18 19:23:21,376 - INFO - 正在爬取第 104 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=1
+2025-08-18 19:23:22,708 - INFO - 正在爬取第 105 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=2
+2025-08-18 19:23:24,101 - INFO - 正在爬取第 106 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=3
+2025-08-18 19:23:25,449 - INFO - 正在爬取第 107 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=4
+2025-08-18 19:23:26,760 - INFO - 正在爬取第 108 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=5
+2025-08-18 19:23:28,105 - INFO - 正在爬取第 109 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx&pageIndex=323
+2025-08-18 19:23:29,446 - INFO - 正在爬取第 110 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=guo_jia_ke_ji_jin_bu_jiang&id=11744
+2025-08-18 19:23:29,737 - INFO - 爬取进度: 已爬取 110 页，待爬取 231 页
+2025-08-18 19:23:29,738 - INFO - 已找到 3 个手机号，13 个联系人
+2025-08-18 19:23:30,743 - INFO - 正在爬取第 111 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=guo_jia_ke_ji_jin_bu_jiang&id=11743
+2025-08-18 19:23:32,043 - INFO - 正在爬取第 112 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=guo_jia_ke_ji_jin_bu_jiang&id=11742
+2025-08-18 19:23:33,422 - INFO - 正在爬取第 113 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list&pageIndex=1
+2025-08-18 19:23:34,704 - INFO - 正在爬取第 114 页: https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=gong_lu 
+2025-08-18 19:23:34,820 - ERROR - 获取页面失败 https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=gong_lu : 404 Client Error:  for url: https://www.schdri.com/%20%20/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=gong_lu%20
+2025-08-18 19:23:34,820 - INFO - 正在爬取第 114 页: https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=qiao_liang 
+2025-08-18 19:23:34,927 - ERROR - 获取页面失败 https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=qiao_liang : 404 Client Error:  for url: https://www.schdri.com/%20%20/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=qiao_liang%20
+2025-08-18 19:23:34,928 - INFO - 正在爬取第 114 页: https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=sui_dao 
+2025-08-18 19:23:35,297 - ERROR - 获取页面失败 https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=sui_dao : 404 Client Error:  for url: https://www.schdri.com/%20%20/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=sui_dao%20
+2025-08-18 19:23:35,298 - INFO - 正在爬取第 114 页: https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=shi_zheng_gong_cheng 
+2025-08-18 19:23:35,408 - ERROR - 获取页面失败 https://www.schdri.com/  /go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=shi_zheng_gong_cheng : 404 Client Error:  for url: https://www.schdri.com/%20%20/go.htm?url=cheng_guo_zhan_shi/zdgc_list&k=shi_zheng_gong_cheng%20
+2025-08-18 19:23:35,408 - INFO - 正在爬取第 114 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14378
+2025-08-18 19:23:36,696 - INFO - 正在爬取第 115 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14216
+2025-08-18 19:23:37,992 - INFO - 正在爬取第 116 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14215
+2025-08-18 19:23:39,282 - INFO - 正在爬取第 117 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14214
+2025-08-18 19:23:40,660 - INFO - 正在爬取第 118 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14213
+2025-08-18 19:23:41,953 - INFO - 正在爬取第 119 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14217
+2025-08-18 19:23:43,238 - INFO - 正在爬取第 120 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14212
+2025-08-18 19:23:43,526 - INFO - 爬取进度: 已爬取 120 页，待爬取 226 页
+2025-08-18 19:23:43,526 - INFO - 已找到 3 个手机号，13 个联系人
+2025-08-18 19:23:44,531 - INFO - 正在爬取第 121 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14209
+2025-08-18 19:23:45,827 - INFO - 正在爬取第 122 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=dang_jian_gong_zuo&id=14211
+2025-08-18 19:23:47,117 - INFO - 正在爬取第 123 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=1
+2025-08-18 19:23:48,472 - INFO - 正在爬取第 124 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=2
+2025-08-18 19:23:50,087 - INFO - 正在爬取第 125 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=3
+2025-08-18 19:23:51,714 - INFO - 正在爬取第 126 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=4
+2025-08-18 19:23:53,054 - INFO - 正在爬取第 127 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=5
+2025-08-18 19:23:54,387 - INFO - 正在爬取第 128 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list&pageIndex=17
+2025-08-18 19:23:55,737 - INFO - 正在爬取第 129 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14382
+2025-08-18 19:23:57,010 - INFO - 正在爬取第 130 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14373
+2025-08-18 19:23:57,303 - INFO - 爬取进度: 已爬取 130 页，待爬取 272 页
+2025-08-18 19:23:57,303 - INFO - 已找到 3 个手机号，13 个联系人
+2025-08-18 19:23:58,308 - INFO - 正在爬取第 131 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14372
+2025-08-18 19:23:58,603 - INFO - 页面 https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14372 找到 0 个新手机号, 2 个新联系人
+2025-08-18 19:23:58,603 - INFO - 去重: 2 个重复手机号, 4 个重复联系人
+2025-08-18 19:23:59,609 - INFO - 正在爬取第 132 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14371
+2025-08-18 19:23:59,910 - INFO - 页面 https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14371 找到 1 个新手机号, 3 个新联系人
+2025-08-18 19:23:59,910 - INFO - 去重: 2 个重复手机号, 2 个重复联系人
+2025-08-18 19:24:00,917 - INFO - 正在爬取第 133 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14366
+2025-08-18 19:24:01,228 - INFO - 页面 https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14366 找到 1 个新手机号, 3 个新联系人
+2025-08-18 19:24:01,228 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:24:02,234 - INFO - 正在爬取第 134 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14363
+2025-08-18 19:24:02,516 - INFO - 页面 https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=zhao_biao_gong_gao&id=14363 找到 0 个新手机号, 2 个新联系人
+2025-08-18 19:24:02,516 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:24:03,521 - INFO - 正在爬取第 135 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=1
+2025-08-18 19:24:04,884 - INFO - 正在爬取第 136 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=2
+2025-08-18 19:24:06,209 - INFO - 正在爬取第 137 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=3
+2025-08-18 19:24:07,538 - INFO - 正在爬取第 138 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=4
+2025-08-18 19:24:08,934 - INFO - 正在爬取第 139 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=5
+2025-08-18 19:24:09,274 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=5 找到 0 个新手机号, 4 个新联系人
+2025-08-18 19:24:09,274 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:24:10,280 - INFO - 正在爬取第 140 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg&pageIndex=54
+2025-08-18 19:24:10,603 - INFO - 爬取进度: 已爬取 140 页，待爬取 300 页
+2025-08-18 19:24:10,603 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:24:11,608 - INFO - 正在爬取第 141 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14383&k=qi_ye_xin_wen
+2025-08-18 19:24:12,923 - INFO - 正在爬取第 142 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:24:14,221 - INFO - 正在爬取第 143 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14376&k=qi_ye_xin_wen
+2025-08-18 19:24:15,531 - INFO - 正在爬取第 144 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14370&k=qi_ye_xin_wen
+2025-08-18 19:24:16,813 - INFO - 正在爬取第 145 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14369&k=qi_ye_xin_wen
+2025-08-18 19:24:18,082 - INFO - 正在爬取第 146 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14368&k=qi_ye_xin_wen
+2025-08-18 19:24:19,421 - INFO - 正在爬取第 147 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14354&k=qi_ye_xin_wen
+2025-08-18 19:24:20,725 - INFO - 正在爬取第 148 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14353&k=qi_ye_xin_wen
+2025-08-18 19:24:22,010 - INFO - 正在爬取第 149 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14350&k=qi_ye_xin_wen
+2025-08-18 19:24:23,329 - INFO - 正在爬取第 150 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14348&k=qi_ye_xin_wen
+2025-08-18 19:24:23,621 - INFO - 爬取进度: 已爬取 150 页，待爬取 296 页
+2025-08-18 19:24:23,621 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:24:24,627 - INFO - 正在爬取第 151 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14343&k=qi_ye_xin_wen
+2025-08-18 19:24:25,949 - INFO - 正在爬取第 152 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14336&k=qi_ye_xin_wen
+2025-08-18 19:24:27,532 - INFO - 正在爬取第 153 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14342&k=qi_ye_xin_wen
+2025-08-18 19:24:28,834 - INFO - 正在爬取第 154 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14329&k=qi_ye_xin_wen
+2025-08-18 19:24:30,179 - INFO - 正在爬取第 155 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14311&k=qi_ye_xin_wen
+2025-08-18 19:24:31,488 - INFO - 正在爬取第 156 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14328&k=qi_ye_xin_wen
+2025-08-18 19:24:32,771 - INFO - 正在爬取第 157 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14333&k=qi_ye_xin_wen
+2025-08-18 19:24:34,077 - INFO - 正在爬取第 158 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14327&k=qi_ye_xin_wen
+2025-08-18 19:24:35,369 - INFO - 正在爬取第 159 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14294&k=qi_ye_xin_wen
+2025-08-18 19:24:36,692 - INFO - 正在爬取第 160 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14262&k=shen_du_bao_dao
+2025-08-18 19:24:36,988 - INFO - 爬取进度: 已爬取 160 页，待爬取 287 页
+2025-08-18 19:24:36,988 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:24:37,993 - INFO - 正在爬取第 161 页: https://www.schdri.com/go.htm?k=shen_du_bao_dao&url=dang_jian_wen_hua/ztzl_list
+2025-08-18 19:24:39,288 - INFO - 正在爬取第 162 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14238&k=shen_du_bao_dao
+2025-08-18 19:24:40,842 - INFO - 正在爬取第 163 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14276&k=shen_du_bao_dao
+2025-08-18 19:24:42,137 - INFO - 正在爬取第 164 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14237&k=shen_du_bao_dao
+2025-08-18 19:24:43,404 - INFO - 正在爬取第 165 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14236&k=shen_du_bao_dao
+2025-08-18 19:24:44,700 - INFO - 正在爬取第 166 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14235&k=shen_du_bao_dao
+2025-08-18 19:24:45,967 - INFO - 正在爬取第 167 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14232&k=shen_du_bao_dao
+2025-08-18 19:24:47,223 - INFO - 正在爬取第 168 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14231&k=shen_du_bao_dao
+2025-08-18 19:24:48,486 - INFO - 正在爬取第 169 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14230&k=shen_du_bao_dao
+2025-08-18 19:24:49,763 - INFO - 正在爬取第 170 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14229&k=shen_du_bao_dao
+2025-08-18 19:24:50,028 - INFO - 爬取进度: 已爬取 170 页，待爬取 283 页
+2025-08-18 19:24:50,028 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:24:51,033 - INFO - 正在爬取第 171 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14228&k=shen_du_bao_dao
+2025-08-18 19:24:52,295 - INFO - 正在爬取第 172 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&id=14227&k=shen_du_bao_dao
+2025-08-18 19:24:53,561 - INFO - 正在爬取第 173 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8582
+2025-08-18 19:24:54,851 - INFO - 正在爬取第 174 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8581
+2025-08-18 19:24:56,154 - INFO - 正在爬取第 175 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8580
+2025-08-18 19:24:57,455 - INFO - 正在爬取第 176 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8579
+2025-08-18 19:24:58,800 - INFO - 正在爬取第 177 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8578
+2025-08-18 19:25:00,082 - INFO - 正在爬取第 178 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8577
+2025-08-18 19:25:01,368 - INFO - 正在爬取第 179 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8576
+2025-08-18 19:25:02,654 - INFO - 正在爬取第 180 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8575
+2025-08-18 19:25:02,945 - INFO - 爬取进度: 已爬取 180 页，待爬取 273 页
+2025-08-18 19:25:02,946 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:25:03,949 - INFO - 正在爬取第 181 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=gong_lu&id=8574
+2025-08-18 19:25:05,285 - INFO - 正在爬取第 182 页: https://www.schdri.com/go.htm?k=gong_lu &url=cheng_guo_zhan_shi/zdgc_list&pageIndex=1
+2025-08-18 19:25:06,690 - INFO - 正在爬取第 183 页: https://www.schdri.com/go.htm?k=gong_lu &url=cheng_guo_zhan_shi/zdgc_list&pageIndex=2
+2025-08-18 19:25:07,989 - INFO - 正在爬取第 184 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8591
+2025-08-18 19:25:09,292 - INFO - 正在爬取第 185 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8590
+2025-08-18 19:25:10,584 - INFO - 正在爬取第 186 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8589
+2025-08-18 19:25:11,881 - INFO - 正在爬取第 187 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8588
+2025-08-18 19:25:13,225 - INFO - 正在爬取第 188 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8587
+2025-08-18 19:25:14,516 - INFO - 正在爬取第 189 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8586
+2025-08-18 19:25:15,805 - INFO - 正在爬取第 190 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8585
+2025-08-18 19:25:16,101 - INFO - 爬取进度: 已爬取 190 页，待爬取 266 页
+2025-08-18 19:25:16,101 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:25:17,106 - INFO - 正在爬取第 191 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8584
+2025-08-18 19:25:18,398 - INFO - 正在爬取第 192 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=qiao_liang&id=8583
+2025-08-18 19:25:19,704 - INFO - 正在爬取第 193 页: https://www.schdri.com/go.htm?k=qiao_liang &url=cheng_guo_zhan_shi/zdgc_list&pageIndex=1
+2025-08-18 19:25:20,988 - INFO - 正在爬取第 194 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8570
+2025-08-18 19:25:22,285 - INFO - 正在爬取第 195 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8569
+2025-08-18 19:25:23,611 - INFO - 正在爬取第 196 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8568
+2025-08-18 19:25:25,019 - INFO - 正在爬取第 197 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8567
+2025-08-18 19:25:26,400 - INFO - 正在爬取第 198 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8566
+2025-08-18 19:25:27,774 - INFO - 正在爬取第 199 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8565
+2025-08-18 19:25:29,171 - INFO - 正在爬取第 200 页: https://www.schdri.com/go.htm?url=cheng_guo_zhan_shi/zdgc_details&k=sui_dao&id=8564
+2025-08-18 19:25:29,502 - INFO - 爬取进度: 已爬取 200 页，待爬取 256 页
+2025-08-18 19:25:29,502 - INFO - 已找到 5 个手机号，27 个联系人
+2025-08-18 19:25:30,508 - INFO - 已达到设定的最大页数 200，停止爬取
+2025-08-18 19:25:30,508 - INFO - 爬取完成，共爬取 200 页
+2025-08-18 19:25:30,508 - INFO - 总计 5 个手机号，27 个联系人
+2025-08-18 19:25:30,511 - ERROR - 导出CSV失败: dict contains fields not in fieldnames: 'original_contacts', 'original_phones'
+2025-08-18 19:25:30,512 - INFO - 结果已导出到 /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_192103.json
+2025-08-18 19:25:30,545 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_192103.docx
+2025-08-18 19:27:28,960 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:27:28,960 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:27:44,975 - INFO - 127.0.0.1 - - [18/Aug/2025 19:27:44] "GET / HTTP/1.1" 200 -
+2025-08-18 19:27:45,019 - INFO - 127.0.0.1 - - [18/Aug/2025 19:27:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:27:47,912 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:27:47,913 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-18 19:27:47,914 - INFO - 127.0.0.1 - - [18/Aug/2025 19:27:47] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:27:47,928 - INFO - 127.0.0.1 - - [18/Aug/2025 19:27:47] "GET /api/events?task_id=t1755516467911 HTTP/1.1" 200 -
+2025-08-18 19:27:48,675 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:27:48,675 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:27:49,141 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:27:50,149 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:27:51,454 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:27:52,772 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:27:54,145 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:27:55,423 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:27:56,688 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:27:57,989 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:27:58,305 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:27:58,306 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:27:59,312 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:27:59,427 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:27:59,428 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:27:59,526 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:27:59,526 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:28:00,809 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:28:01,079 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:28:01,079 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:28:02,084 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:28:03,367 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:28:04,662 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:28:05,936 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:28:07,194 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:28:08,477 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:28:09,742 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:28:11,013 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:28:12,284 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:28:13,565 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:28:13,846 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:28:13,846 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:28:14,852 - INFO - 正在爬取第 21 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14333
+2025-08-18 19:28:16,126 - INFO - 正在爬取第 22 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14327
+2025-08-18 19:28:17,403 - INFO - 正在爬取第 23 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14329
+2025-08-18 19:28:18,957 - INFO - 正在爬取第 24 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14328
+2025-08-18 19:28:20,241 - INFO - 正在爬取第 25 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14336
+2025-08-18 19:28:22,524 - INFO - 正在爬取第 26 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14311
+2025-08-18 19:28:23,850 - INFO - 正在爬取第 27 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14276
+2025-08-18 19:28:25,235 - INFO - 正在爬取第 28 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14262
+2025-08-18 19:28:26,534 - INFO - 正在爬取第 29 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=shen_du_bao_dao&id=14238
+2025-08-18 19:29:08,391 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:29:08,391 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:29:18,004 - INFO - 127.0.0.1 - - [18/Aug/2025 19:29:18] "GET / HTTP/1.1" 200 -
+2025-08-18 19:29:18,024 - INFO - 127.0.0.1 - - [18/Aug/2025 19:29:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:29:21,504 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:29:21,505 - INFO - 127.0.0.1 - - [18/Aug/2025 19:29:21] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:29:21,505 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:29:21,519 - INFO - 127.0.0.1 - - [18/Aug/2025 19:29:21] "GET /api/events?task_id=t1755516561503 HTTP/1.1" 200 -
+2025-08-18 19:29:22,220 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:29:22,220 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:29:22,609 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:29:23,617 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:29:24,937 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:29:26,245 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:29:27,567 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:29:28,818 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:29:30,109 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:29:31,407 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:29:31,710 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:29:31,711 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:29:32,717 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:29:32,821 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:29:32,821 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:29:32,920 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:29:32,920 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:29:34,197 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:29:34,489 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:29:34,489 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:29:35,495 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:29:36,790 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:29:38,091 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:29:39,379 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:29:40,658 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:29:41,953 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:29:43,225 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:29:44,501 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:29:45,774 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:29:47,050 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:29:47,356 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:29:47,356 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:29:48,361 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:29:48,362 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:29:48,362 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:29:48,366 - INFO - 结果已导出到 /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_192921.csv
+2025-08-18 19:29:48,366 - INFO - 共找到 2 页包含联系信息
+2025-08-18 19:29:48,366 - INFO - 总计: 2 个手机号, 6 个联系人
+2025-08-18 19:29:48,367 - INFO - 结果已导出到 /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_192921.json
+2025-08-18 19:29:48,400 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_192921.docx
+2025-08-18 19:31:29,127 - INFO - 127.0.0.1 - - [18/Aug/2025 19:31:29] "GET / HTTP/1.1" 200 -
+2025-08-18 19:31:29,148 - INFO - 127.0.0.1 - - [18/Aug/2025 19:31:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:31:32,524 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:31:32,525 - INFO - 127.0.0.1 - - [18/Aug/2025 19:31:32] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:31:32,525 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:31:32,533 - INFO - 127.0.0.1 - - [18/Aug/2025 19:31:32] "GET /api/events?task_id=t1755516692524 HTTP/1.1" 200 -
+2025-08-18 19:31:33,535 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:31:33,535 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:31:33,968 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:31:34,973 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:31:36,519 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:31:37,870 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:31:39,193 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:31:40,468 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:31:41,739 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:31:43,101 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:31:43,429 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:31:43,429 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:31:44,433 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:31:44,539 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:31:44,540 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:31:44,641 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:31:44,642 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:31:45,921 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:31:46,467 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:31:46,467 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:31:47,472 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:31:48,748 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:31:50,028 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:31:51,612 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:31:52,893 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:31:54,171 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:31:55,444 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:31:56,741 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:31:58,287 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:31:59,564 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:31:59,840 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:31:59,840 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:32:00,845 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:32:00,846 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:32:00,846 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:32:00,848 - INFO - 结果已导出到 /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193132.csv
+2025-08-18 19:32:00,849 - INFO - 共找到 2 页包含联系信息
+2025-08-18 19:32:00,849 - INFO - 总计: 2 个手机号, 6 个联系人
+2025-08-18 19:32:00,850 - INFO - 结果已导出到 /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193132.json
+2025-08-18 19:32:00,885 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193132.docx
+2025-08-18 19:33:59,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:33:59,904 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:34:14,271 - INFO - 127.0.0.1 - - [18/Aug/2025 19:34:14] "GET / HTTP/1.1" 200 -
+2025-08-18 19:34:14,294 - INFO - 127.0.0.1 - - [18/Aug/2025 19:34:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:34:17,319 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:34:17,321 - INFO - 127.0.0.1 - - [18/Aug/2025 19:34:17] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:34:17,321 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:34:17,332 - INFO - 127.0.0.1 - - [18/Aug/2025 19:34:17] "GET /api/events?task_id=t1755516857318 HTTP/1.1" 200 -
+2025-08-18 19:34:18,062 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:34:18,062 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:34:18,466 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:34:19,474 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:34:20,797 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:34:22,111 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:34:23,429 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:34:24,710 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:34:25,979 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:34:27,294 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:34:27,620 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:34:27,620 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:34:28,626 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:34:28,726 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:34:28,727 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:34:28,828 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:34:28,829 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:34:30,121 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:34:30,399 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:34:30,400 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:34:31,405 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:34:32,694 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:34:34,003 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:34:35,298 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:34:36,590 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:34:37,883 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:34:39,179 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:34:40,466 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:34:41,754 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:34:43,047 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:34:43,341 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:34:43,341 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:34:44,346 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:34:44,347 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:34:44,347 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:34:44,387 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193417.docx
+2025-08-18 19:35:58,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:35:58,826 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:36:12,621 - INFO - 127.0.0.1 - - [18/Aug/2025 19:36:12] "GET / HTTP/1.1" 200 -
+2025-08-18 19:36:12,640 - INFO - 127.0.0.1 - - [18/Aug/2025 19:36:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:36:16,151 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:36:16,152 - INFO - 127.0.0.1 - - [18/Aug/2025 19:36:16] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:36:16,152 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:36:16,164 - INFO - 127.0.0.1 - - [18/Aug/2025 19:36:16] "GET /api/events?task_id=t1755516976150 HTTP/1.1" 200 -
+2025-08-18 19:36:16,909 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:36:16,909 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:36:17,311 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:36:18,319 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:36:19,645 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:36:20,968 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:36:22,303 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:36:23,591 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:36:24,860 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:36:26,183 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:36:26,534 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:36:26,535 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:36:27,541 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:36:27,649 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:36:27,649 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:36:27,754 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:36:27,755 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:36:29,051 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:36:29,410 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:36:29,410 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:36:30,415 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:36:31,724 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:36:33,034 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:36:34,600 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:36:35,894 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:36:37,195 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:36:38,517 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:36:39,793 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:36:41,094 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:36:42,392 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:36:42,748 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:36:42,748 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:36:43,753 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:36:43,754 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:36:43,754 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:36:43,774 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193616.docx
+2025-08-18 19:37:04,175 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:04] "GET / HTTP/1.1" 200 -
+2025-08-18 19:37:04,190 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:37:06,214 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:06] "GET / HTTP/1.1" 200 -
+2025-08-18 19:37:06,229 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:37:10,486 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:37:10,486 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:37:10,487 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:10] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:37:10,501 - INFO - 127.0.0.1 - - [18/Aug/2025 19:37:10] "GET /api/events?task_id=t1755517030485 HTTP/1.1" 200 -
+2025-08-18 19:37:11,228 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:37:11,228 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:37:11,630 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:37:12,638 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:37:13,912 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:37:15,451 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:37:16,776 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:37:18,045 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:37:19,618 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:37:20,918 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:37:21,221 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:37:21,221 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:37:22,229 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:37:22,327 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:37:22,327 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:37:22,429 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:37:22,429 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:37:23,698 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:37:24,227 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:37:24,228 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:37:25,229 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:37:26,499 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:37:27,792 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:37:29,056 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:37:30,333 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:37:31,858 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:37:33,133 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:37:34,388 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:37:35,644 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:37:36,909 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:37:37,199 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:37:37,199 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:37:38,204 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:37:38,205 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:37:38,205 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:37:38,243 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193710.docx
+2025-08-18 19:38:24,877 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:24] "GET / HTTP/1.1" 200 -
+2025-08-18 19:38:24,896 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:38:26,992 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:26] "GET / HTTP/1.1" 200 -
+2025-08-18 19:38:27,008 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:38:42,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:38:42,323 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:38:42,660 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:42] "GET / HTTP/1.1" 200 -
+2025-08-18 19:38:42,679 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:38:45,152 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:45] "GET / HTTP/1.1" 200 -
+2025-08-18 19:38:45,170 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:38:50,116 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:38:50,117 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:50] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:38:50,118 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:38:50,130 - INFO - 127.0.0.1 - - [18/Aug/2025 19:38:50] "GET /api/events?task_id=t1755517130115 HTTP/1.1" 200 -
+2025-08-18 19:38:50,838 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:38:50,838 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:38:51,241 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:38:52,249 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:38:53,565 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:38:54,900 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:38:56,208 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:38:57,485 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:38:58,751 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:39:00,298 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:39:00,605 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:39:00,606 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:39:01,608 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:39:01,707 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:39:01,708 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:39:01,802 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:39:01,803 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:39:03,068 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:39:03,360 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:39:03,360 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:39:04,366 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:39:05,680 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:39:06,982 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:39:08,272 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:39:09,563 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:39:10,853 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:39:12,128 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:39:13,409 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:39:14,700 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:39:15,978 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:39:16,261 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:39:16,261 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:39:17,267 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:39:17,267 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:39:17,267 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:39:17,304 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_193850.docx
+2025-08-18 19:41:21,313 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:41:21,313 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:41:24,466 - INFO - 127.0.0.1 - - [18/Aug/2025 19:41:24] "GET / HTTP/1.1" 200 -
+2025-08-18 19:41:24,487 - INFO - 127.0.0.1 - - [18/Aug/2025 19:41:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:41:27,872 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:41:27,874 - INFO - 127.0.0.1 - - [18/Aug/2025 19:41:27] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:41:27,874 - INFO - 已启用页数限制: 最多爬取 20 页
+2025-08-18 19:41:27,888 - INFO - 127.0.0.1 - - [18/Aug/2025 19:41:27] "GET /api/events?task_id=t1755517287871 HTTP/1.1" 200 -
+2025-08-18 19:41:28,883 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:41:28,884 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:41:29,297 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:41:30,305 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:41:31,637 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:41:33,007 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:41:34,331 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:41:35,614 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:41:36,903 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:41:38,205 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:41:38,515 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:41:38,515 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:41:39,522 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:41:39,633 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:41:39,634 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:41:39,738 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:41:39,739 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:41:41,033 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:41:41,338 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:41:41,338 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:41:42,344 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-18 19:41:43,724 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-18 19:41:45,030 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-18 19:41:46,331 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-18 19:41:47,607 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-18 19:41:48,891 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14353
+2025-08-18 19:41:50,180 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14350
+2025-08-18 19:41:51,461 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14348
+2025-08-18 19:41:52,739 - INFO - 正在爬取第 19 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14342
+2025-08-18 19:41:54,014 - INFO - 正在爬取第 20 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14343
+2025-08-18 19:41:54,281 - INFO - 爬取进度: 已爬取 20 页，待爬取 138 页
+2025-08-18 19:41:54,282 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:41:55,287 - INFO - 已达到设定的最大页数 20，停止爬取
+2025-08-18 19:41:55,287 - INFO - 爬取完成，共爬取 20 页
+2025-08-18 19:41:55,287 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:41:55,411 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_194127.docx
+2025-08-18 19:43:49,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:43:49,012 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:43:56,842 - INFO - 127.0.0.1 - - [18/Aug/2025 19:43:56] "GET / HTTP/1.1" 200 -
+2025-08-18 19:43:56,868 - INFO - 127.0.0.1 - - [18/Aug/2025 19:43:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:44:03,424 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-18 19:44:03,425 - INFO - 127.0.0.1 - - [18/Aug/2025 19:44:03] "POST /api/scrape HTTP/1.1" 200 -
+2025-08-18 19:44:03,426 - INFO - 已启用页数限制: 最多爬取 10 页
+2025-08-18 19:44:03,437 - INFO - 127.0.0.1 - - [18/Aug/2025 19:44:03] "GET /api/events?task_id=t1755517443423 HTTP/1.1" 200 -
+2025-08-18 19:44:04,182 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-18 19:44:04,182 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-18 19:44:04,576 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-18 19:44:05,584 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-18 19:44:06,901 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-18 19:44:08,205 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-18 19:44:09,513 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-18 19:44:10,788 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-18 19:44:12,038 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-18 19:44:13,316 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-18 19:44:13,619 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-18 19:44:13,619 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-18 19:44:14,625 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:44:14,728 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-18 19:44:14,728 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:44:14,830 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-18 19:44:14,831 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-18 19:44:16,110 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-18 19:44:16,408 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-18 19:44:16,408 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-18 19:44:17,414 - INFO - 已达到设定的最大页数 10，停止爬取
+2025-08-18 19:44:17,414 - INFO - 爬取完成，共爬取 10 页
+2025-08-18 19:44:17,414 - INFO - 总计 2 个手机号，6 个联系人
+2025-08-18 19:44:17,451 - INFO - 结果已导出到Word文档: /Users/chenjunliang/project/python/get_phone/outputs/www.schdri.com_20250818_194403.docx
+2025-08-18 19:44:19,212 - INFO - 127.0.0.1 - - [18/Aug/2025 19:44:19] "GET /download/www.schdri.com_20250818_194403.docx HTTP/1.1" 200 -
+2025-08-18 19:50:09,301 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.26.11:5000
+2025-08-18 19:50:09,301 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 19:50:10,700 - INFO - 127.0.0.1 - - [18/Aug/2025 19:50:10] "GET / HTTP/1.1" 200 -
+2025-08-18 19:50:10,783 - INFO - 127.0.0.1 - - [18/Aug/2025 19:50:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-18 19:50:12,540 - INFO - 127.0.0.1 - - [18/Aug/2025 19:50:12] "GET / HTTP/1.1" 200 -
+2025-08-18 19:50:12,557 - INFO - 127.0.0.1 - - [18/Aug/2025 19:50:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -

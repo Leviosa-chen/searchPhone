@@ -1,0 +1,19 @@
+[Unit]
+Description=Get Phone Web Service (Gunicorn)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/project/python/get_phone
+Environment=MAX_PAGES=200
+Environment=PORT=5000
+ExecStart=%h/project/python/get_phone/.venv/bin/gunicorn --bind 0.0.0.0:5000 --workers 2 --timeout 300 web_app:app
+Restart=always
+RestartSec=5
+StandardOutput=append:%h/project/python/get_phone/gunicorn.out
+StandardError=append:%h/project/python/get_phone/gunicorn.out
+
+[Install]
+WantedBy=multi-user.target
+
+
