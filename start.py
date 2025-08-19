@@ -11,7 +11,6 @@ import subprocess
 def main():
     """主函数"""
     print("正在启动网站手机号码爬虫...")
-    print("目标网站: https://www.schdri.com")
     print("=" * 50)
     
     try:
