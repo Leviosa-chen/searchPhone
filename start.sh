@@ -1,14 +1,12 @@
 #!/bin/bash
 
-echo "正在启动网站手机号码爬虫..."
-echo "=================================================="
+# 激活虚拟环境
+source .venv/bin/activate
 
-# 检查Python是否安装
-if ! command -v python3 &> /dev/null; then
-    echo "错误: 未找到 python3 命令"
-    echo "请先安装 Python 3"
-    exit 1
-fi
+# 启动Web服务（带有前端页面的Flask应用）
+echo "启动手机号爬取Web服务..."
+echo "访问地址: http://localhost:5000"
+echo "按 Ctrl+C 停止服务"
 
-# 运行爬虫
-python3 start.py 
+# 启动Flask Web应用
+python web_app.py 

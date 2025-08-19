@@ -1,16 +1,55 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Config
+# 命令行参数解析
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    --port)
+      PORT="$2"
+      shift 2
+      ;;
+    --workers)
+      WORKERS="$2"
+      shift 2
+      ;;
+    --max-pages)
+      MAX_PAGES="$2"
+      shift 2
+      ;;
+    --help)
+      echo "Usage: $0 [--port PORT] [--workers WORKERS] [--max-pages MAX_PAGES]"
+      echo "  --port PORT        Port to bind (default: 5000)"
+      echo "  --workers WORKERS  Number of worker processes (default: 2)"
+      echo "  --max-pages PAGES  Default max pages to crawl (default: 200)"
+      echo "  --help            Show this help message"
+      echo ""
+      echo "Examples:"
+      echo "  $0                    # 使用默认配置"
+      echo "  $0 --port 8080       # 指定端口 8080"
+      echo "  $0 --port 8080 --workers 4 --max-pages 100"
+      exit 0
+      ;;
+    *)
+      echo "Unknown option: $1"
+      echo "Use --help for usage information"
+      exit 1
+      ;;
+  esac
+done
+
+# Config - 支持环境变量覆盖
 APP_DIR="$(cd "$(dirname "$0")" && pwd)"
 PYTHON_BIN="python3"
 VENV_DIR="$APP_DIR/.venv"
-PORT="5000"
+PORT="${PORT:-5000}"  # 支持环境变量 PORT 覆盖
 HOST="0.0.0.0"
-WORKERS="2"
-MAX_PAGES_DEFAULT="200"
+WORKERS="${WORKERS:-2}"  # 支持环境变量 WORKERS 覆盖
+MAX_PAGES_DEFAULT="${MAX_PAGES:-200}"  # 支持环境变量 MAX_PAGES 覆盖
 
 echo "[deploy] App dir: $APP_DIR"
+echo "[deploy] Port: $PORT"
+echo "[deploy] Workers: $WORKERS"
+echo "[deploy] Max pages: $MAX_PAGES_DEFAULT"
 
 # 1) Ensure Python and venv
 if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
@@ -55,6 +94,10 @@ ATTEMPTS=30
 for i in $(seq 1 $ATTEMPTS); do
   if curl -fsS "$HEALTH_URL" >/dev/null 2>&1; then
     echo "[deploy] Service is healthy on $HEALTH_URL"
+    echo "[deploy] Service started successfully!"
+    echo "[deploy] PID: $GUNICORN_PID"
+    echo "[deploy] Log: $APP_DIR/gunicorn.out"
+    echo "[deploy] Access: http://$(hostname -I | awk '{print $1}'):$PORT"
     exit 0
   fi
   sleep 1
