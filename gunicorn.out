@@ -1,0 +1,405 @@
+/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-08-21 10:15:15,529 - INFO - 收到爬取请求: https://httpbin.org/html, max_pages: 1, re_scrape: False
+2025-08-21 10:15:15,529 - INFO - 检查URL历史: https://httpbin.org/html
+2025-08-21 10:15:15,530 - INFO - 检查URL历史: https://httpbin.org/html
+2025-08-21 10:15:15,530 - INFO - URL哈希: 89d06014f6270c0989bdb69f5e826bf5
+2025-08-21 10:15:15,530 - INFO - 历史记录: {}
+2025-08-21 10:15:15,530 - INFO - 当前TASKS: []
+2025-08-21 10:15:15,531 - INFO - URL https://httpbin.org/html 今天没有历史记录
+2025-08-21 10:15:15,531 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:15,531 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:17,547 - INFO - 创建任务: t1755742517545, URL: https://httpbin.org/html
+2025-08-21 10:15:17,547 - INFO - 保存到历史: 89d06014f6270c0989bdb69f5e826bf5 -> {'task_id': 't1755742517545', 'status': 'running', 'timestamp': 1755742517.5469801, 'url': 'https://httpbin.org/html'}
+2025-08-21 10:15:17,549 - INFO - 任务 t1755742517545 发送事件: {'type': 'start', 'url': 'https://httpbin.org/html', 'max_pages': 1}
+2025-08-21 10:15:17,551 - INFO - 任务 t1755742517545 开始执行
+2025-08-21 10:15:17,554 - INFO - 开始爬取网站: https://httpbin.org/html
+2025-08-21 10:15:17,556 - INFO - 已启用页数限制: 最多爬取 1 页
+2025-08-21 10:15:17,558 - INFO - 任务 t1755742517545 发送事件: {'type': 'start', 'url': 'https://httpbin.org/html', 'max_pages': 1}
+2025-08-21 10:15:19,567 - INFO - 正在爬取第 1 页: https://httpbin.org/html
+2025-08-21 10:15:19,568 - INFO - 任务 t1755742517545 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://httpbin.org/html', 'queue': 0}
+2025-08-21 10:15:19,826 - INFO - 任务 t1755742517545 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://httpbin.org/html', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:20,559 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:20,559 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:20,560 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:20,560 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:20,560 - INFO - 收到爬取请求: https://httpbin.org/html, max_pages: 1, re_scrape: False
+2025-08-21 10:15:20,560 - INFO - 历史记录: {}
+2025-08-21 10:15:20,561 - INFO - 检查URL历史: https://httpbin.org/html
+2025-08-21 10:15:20,562 - INFO - 检查URL历史: https://httpbin.org/html
+2025-08-21 10:15:20,563 - INFO - URL哈希: 89d06014f6270c0989bdb69f5e826bf5
+2025-08-21 10:15:20,563 - INFO - 历史记录: {}
+2025-08-21 10:15:20,561 - INFO - 当前TASKS: ['t1755742517545']
+2025-08-21 10:15:20,563 - INFO - URL https://www.schdri.com/ 今天没有历史记录
+2025-08-21 10:15:20,563 - INFO - 当前TASKS: []
+2025-08-21 10:15:20,564 - INFO - URL https://httpbin.org/html 今天没有历史记录
+2025-08-21 10:15:20,565 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:20,566 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:20,566 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:20,567 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:20,831 - INFO - 爬取完成，共爬取 1 页
+2025-08-21 10:15:20,832 - INFO - 总计 0 个手机号，0 个联系人
+2025-08-21 10:15:20,832 - INFO - 任务 t1755742517545 发送事件: {'type': 'done', 'pages': 1, 'phones': 0, 'contacts': 0}
+2025-08-21 10:15:20,832 - WARNING - 没有找到任何手机号码或联系人信息
+2025-08-21 10:15:20,833 - ERROR - 任务 t1755742517545 失败，文件不存在: /Users/chenjunliang/project/python/get_phone/outputs/httpbin.org_20250821_101517.docx
+2025-08-21 10:15:20,834 - INFO - 任务 t1755742517545 标记完成
+2025-08-21 10:15:21,504 - INFO - 创建任务: t1755742521502, URL: https://www.schdri.com/
+2025-08-21 10:15:21,505 - INFO - 保存到历史: 3278e5c37d1a1bd94fe30f76321e0f82 -> {'task_id': 't1755742521502', 'status': 'running', 'timestamp': 1755742521.504009, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:21,507 - INFO - 任务 t1755742521502 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:21,510 - INFO - 任务 t1755742521502 开始执行
+2025-08-21 10:15:21,513 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-21 10:15:21,522 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-21 10:15:21,523 - INFO - 任务 t1755742521502 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:21,535 - INFO - SSE连接请求: task_id=t1755742521502
+2025-08-21 10:15:21,536 - ERROR - SSE连接请求的task_id不存在: t1755742521502
+2025-08-21 10:15:21,672 - INFO - 创建任务: t1755742521671, URL: https://httpbin.org/html
+2025-08-21 10:15:21,673 - INFO - 保存到历史: 89d06014f6270c0989bdb69f5e826bf5 -> {'task_id': 't1755742521671', 'status': 'running', 'timestamp': 1755742521.672587, 'url': 'https://httpbin.org/html'}
+2025-08-21 10:15:21,675 - INFO - 任务 t1755742521671 发送事件: {'type': 'start', 'url': 'https://httpbin.org/html', 'max_pages': 1}
+2025-08-21 10:15:21,677 - INFO - 任务 t1755742521671 开始执行
+2025-08-21 10:15:21,678 - INFO - 开始爬取网站: https://httpbin.org/html
+2025-08-21 10:15:21,681 - INFO - 已启用页数限制: 最多爬取 1 页
+2025-08-21 10:15:21,682 - INFO - 任务 t1755742521671 发送事件: {'type': 'start', 'url': 'https://httpbin.org/html', 'max_pages': 1}
+2025-08-21 10:15:22,260 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-21 10:15:22,260 - INFO - 任务 t1755742521502 发送事件: {'type': 'site_title', 'title': '四川省公路规划勘察设计研究院有限公司'}
+2025-08-21 10:15:22,261 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-21 10:15:22,261 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://www.schdri.com/', 'queue': 0}
+2025-08-21 10:15:22,338 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:22,338 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:22,339 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:22,340 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:22,340 - INFO - 历史记录: {}
+2025-08-21 10:15:22,341 - INFO - 当前TASKS: []
+2025-08-21 10:15:22,341 - INFO - URL https://www.schdri.com/ 今天没有历史记录
+2025-08-21 10:15:22,342 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:22,342 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:22,545 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-21 10:15:22,546 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://www.schdri.com/', 'new_phones': 2, 'new_contacts': 0}
+2025-08-21 10:15:22,896 - INFO - 正在爬取第 1 页: https://httpbin.org/html
+2025-08-21 10:15:22,896 - INFO - 任务 t1755742521671 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://httpbin.org/html', 'queue': 0}
+2025-08-21 10:15:23,067 - INFO - 创建任务: t1755742523066, URL: https://www.schdri.com/
+2025-08-21 10:15:23,069 - INFO - 保存到历史: 3278e5c37d1a1bd94fe30f76321e0f82 -> {'task_id': 't1755742523066', 'status': 'running', 'timestamp': 1755742523.067589, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:23,070 - INFO - 任务 t1755742523066 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:23,073 - INFO - 任务 t1755742523066 开始执行
+2025-08-21 10:15:23,076 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-21 10:15:23,077 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-21 10:15:23,078 - INFO - 任务 t1755742523066 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:23,094 - INFO - SSE连接请求: task_id=t1755742523066
+2025-08-21 10:15:23,095 - INFO - 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:23,096 - INFO - 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:23,166 - INFO - 任务 t1755742521671 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://httpbin.org/html', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:23,551 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-21 10:15:23,551 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'queue': 88}
+2025-08-21 10:15:23,741 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:23,742 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:23,743 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:23,744 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:23,744 - INFO - 历史记录: {}
+2025-08-21 10:15:23,745 - INFO - 当前TASKS: ['t1755742521671']
+2025-08-21 10:15:23,745 - INFO - URL https://www.schdri.com/ 今天没有历史记录
+2025-08-21 10:15:23,746 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:23,747 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:23,980 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-21 10:15:23,980 - INFO - 任务 t1755742523066 发送事件: {'type': 'site_title', 'title': '四川省公路规划勘察设计研究院有限公司'}
+2025-08-21 10:15:23,980 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-21 10:15:23,981 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://www.schdri.com/', 'queue': 0}
+2025-08-21 10:15:23,987 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:24,100 - INFO - 发送事件: {'type': 'site_title', 'title': '四川省公路规划勘察设计研究院有限公司'}
+2025-08-21 10:15:24,101 - INFO - 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://www.schdri.com/', 'queue': 0}
+2025-08-21 10:15:24,170 - INFO - 爬取完成，共爬取 1 页
+2025-08-21 10:15:24,172 - INFO - 总计 0 个手机号，0 个联系人
+2025-08-21 10:15:24,173 - INFO - 任务 t1755742521671 发送事件: {'type': 'done', 'pages': 1, 'phones': 0, 'contacts': 0}
+2025-08-21 10:15:24,174 - WARNING - 没有找到任何手机号码或联系人信息
+2025-08-21 10:15:24,174 - ERROR - 任务 t1755742521671 失败，文件不存在: /Users/chenjunliang/project/python/get_phone/outputs/httpbin.org_20250821_101521.docx
+2025-08-21 10:15:24,176 - INFO - 任务 t1755742521671 标记完成
+2025-08-21 10:15:24,437 - INFO - 创建任务: t1755742524437, URL: https://www.schdri.com/
+2025-08-21 10:15:24,438 - INFO - 保存到历史: 3278e5c37d1a1bd94fe30f76321e0f82 -> {'task_id': 't1755742524437', 'status': 'running', 'timestamp': 1755742524.437443, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:24,438 - INFO - 任务 t1755742524437 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:24,439 - INFO - 任务 t1755742524437 开始执行
+2025-08-21 10:15:24,440 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-21 10:15:24,441 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-21 10:15:24,442 - INFO - 任务 t1755742524437 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:24,462 - INFO - SSE连接请求: task_id=t1755742524437
+2025-08-21 10:15:24,463 - ERROR - SSE连接请求的task_id不存在: t1755742524437
+2025-08-21 10:15:24,584 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-21 10:15:24,584 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://www.schdri.com/', 'new_phones': 2, 'new_contacts': 0}
+2025-08-21 10:15:24,603 - INFO - 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://www.schdri.com/', 'new_phones': 2, 'new_contacts': 0}
+2025-08-21 10:15:24,988 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:24,989 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:24,990 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:24,990 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:24,991 - INFO - 历史记录: {}
+2025-08-21 10:15:24,992 - INFO - 当前TASKS: []
+2025-08-21 10:15:24,992 - INFO - URL https://www.schdri.com/ 今天没有历史记录
+2025-08-21 10:15:24,993 - INFO - 历史检查结果: {'status': 'not_found', 'message': '今天未曾爬取'}
+2025-08-21 10:15:24,993 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-21 10:15:24,994 - INFO - 需要创建新任务: 今天未曾爬取
+2025-08-21 10:15:24,994 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'queue': 87}
+2025-08-21 10:15:25,277 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:25,298 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-21 10:15:25,299 - INFO - 任务 t1755742524437 发送事件: {'type': 'site_title', 'title': '四川省公路规划勘察设计研究院有限公司'}
+2025-08-21 10:15:25,299 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-21 10:15:25,299 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://www.schdri.com/', 'queue': 0}
+2025-08-21 10:15:25,593 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-21 10:15:25,595 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'queue': 88}
+2025-08-21 10:15:25,606 - INFO - 发送事件: {'type': 'page_start', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'queue': 88}
+2025-08-21 10:15:25,683 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-21 10:15:25,684 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://www.schdri.com/', 'new_phones': 2, 'new_contacts': 0}
+2025-08-21 10:15:25,693 - INFO - 创建任务: t1755742525693, URL: https://www.schdri.com/
+2025-08-21 10:15:25,694 - INFO - 保存到历史: 3278e5c37d1a1bd94fe30f76321e0f82 -> {'task_id': 't1755742525693', 'status': 'running', 'timestamp': 1755742525.69372, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:25,694 - INFO - 任务 t1755742525693 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:25,695 - INFO - 任务 t1755742525693 开始执行
+2025-08-21 10:15:25,695 - INFO - 开始爬取网站: https://www.schdri.com/
+2025-08-21 10:15:25,695 - INFO - 已启用页数限制: 最多爬取 200 页
+2025-08-21 10:15:25,695 - INFO - 任务 t1755742525693 发送事件: {'type': 'start', 'url': 'https://www.schdri.com/', 'max_pages': 200}
+2025-08-21 10:15:25,705 - INFO - SSE连接请求: task_id=t1755742525693
+2025-08-21 10:15:25,706 - ERROR - SSE连接请求的task_id不存在: t1755742525693
+2025-08-21 10:15:25,910 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:26,278 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:26,279 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:26,280 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:26,281 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:26,282 - INFO - 历史记录: {'task_id': 't1755742523066', 'status': 'running', 'timestamp': 1755742523.067589, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:26,282 - INFO - 当前TASKS: ['t1755742523066']
+2025-08-21 10:15:26,283 - INFO - 历史记录中的task_id: t1755742523066
+2025-08-21 10:15:26,286 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-21 10:15:26,285 - INFO - 任务 t1755742523066 在TASKS中找到: {'queue': [{'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}], 'done': False, 'url': 'https://www.schdri.com/', 'terminated': False}
+2025-08-21 10:15:26,287 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'queue': 102}
+2025-08-21 10:15:26,287 - INFO - 任务 t1755742523066 正在运行中，URL: https://www.schdri.com/
+2025-08-21 10:15:26,288 - INFO - 历史检查结果: {'status': 'running', 'message': '今天已有任务正在爬取中，请稍后', 'task_id': 't1755742523066'}
+2025-08-21 10:15:26,289 - INFO - 任务正在运行中: t1755742523066
+2025-08-21 10:15:26,296 - INFO - SSE连接请求: task_id=t1755742523066
+2025-08-21 10:15:26,297 - ERROR - SSE连接请求的task_id不存在: t1755742523066
+2025-08-21 10:15:26,613 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:26,692 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-21 10:15:26,693 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'queue': 88}
+2025-08-21 10:15:26,761 - INFO - 网站标题: 四川省公路规划勘察设计研究院有限公司
+2025-08-21 10:15:26,762 - INFO - 任务 t1755742525693 发送事件: {'type': 'site_title', 'title': '四川省公路规划勘察设计研究院有限公司'}
+2025-08-21 10:15:26,762 - INFO - 正在爬取第 1 页: https://www.schdri.com/
+2025-08-21 10:15:26,762 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 1, 'url': 'https://www.schdri.com/', 'queue': 0}
+2025-08-21 10:15:26,916 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-21 10:15:26,917 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'queue': 87}
+2025-08-21 10:15:26,964 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:27,031 - INFO - 页面 https://www.schdri.com/ 找到 2 个新手机号, 0 个新联系人
+2025-08-21 10:15:27,031 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 1, 'url': 'https://www.schdri.com/', 'new_phones': 2, 'new_contacts': 0}
+2025-08-21 10:15:27,282 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:27,620 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-21 10:15:27,623 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'queue': 107}
+2025-08-21 10:15:27,863 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:27,971 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-21 10:15:27,971 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'queue': 87}
+2025-08-21 10:15:28,039 - INFO - 正在爬取第 2 页: https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie
+2025-08-21 10:15:28,039 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'queue': 88}
+2025-08-21 10:15:28,270 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:28,290 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-21 10:15:28,290 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'queue': 102}
+2025-08-21 10:15:28,314 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:28,492 - INFO - 收到爬取请求: https://www.schdri.com/, max_pages: 200, re_scrape: False
+2025-08-21 10:15:28,493 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:28,494 - INFO - 检查URL历史: https://www.schdri.com/
+2025-08-21 10:15:28,494 - INFO - URL哈希: 3278e5c37d1a1bd94fe30f76321e0f82
+2025-08-21 10:15:28,495 - INFO - 历史记录: {'task_id': 't1755742523066', 'status': 'running', 'timestamp': 1755742523.067589, 'url': 'https://www.schdri.com/'}
+2025-08-21 10:15:28,496 - INFO - 当前TASKS: ['t1755742523066']
+2025-08-21 10:15:28,496 - INFO - 历史记录中的task_id: t1755742523066
+2025-08-21 10:15:28,497 - INFO - 任务 t1755742523066 在TASKS中找到: {'queue': [{'type': 'page_result', 'index': 2, 'url': 'https://www.schdri.com/go.htm?k=gong_si_jian_jie&url=gong_si_gai_kuang/gong_si_jian_jie', 'new_phones': 0, 'new_contacts': 0}, {'type': 'page_start', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'queue': 87}, {'type': 'page_result', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'new_phones': 0, 'new_contacts': 0}, {'type': 'page_start', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'queue': 102}], 'done': False, 'url': 'https://www.schdri.com/', 'terminated': False}
+2025-08-21 10:15:28,498 - INFO - 任务 t1755742523066 正在运行中，URL: https://www.schdri.com/
+2025-08-21 10:15:28,499 - INFO - 历史检查结果: {'status': 'running', 'message': '今天已有任务正在爬取中，请稍后', 'task_id': 't1755742523066'}
+2025-08-21 10:15:28,499 - INFO - 任务正在运行中: t1755742523066
+2025-08-21 10:15:28,508 - INFO - SSE连接请求: task_id=t1755742523066
+2025-08-21 10:15:28,509 - ERROR - SSE连接请求的task_id不存在: t1755742523066
+2025-08-21 10:15:28,609 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:28,870 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-21 10:15:28,873 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'queue': 110}
+2025-08-21 10:15:29,089 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:29,273 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-21 10:15:29,276 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'queue': 102}
+2025-08-21 10:15:29,320 - INFO - 正在爬取第 3 页: https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box
+2025-08-21 10:15:29,323 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'queue': 87}
+2025-08-21 10:15:29,556 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:29,596 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 3, 'url': 'https://www.schdri.com/go.htm?k=gui_hua_zi_xun&url=xjjyw#main-box', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:29,622 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-21 10:15:29,623 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'queue': 107}
+2025-08-21 10:15:29,855 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:30,096 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-21 10:15:30,098 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'queue': 113}
+2025-08-21 10:15:30,369 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:30,561 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-21 10:15:30,563 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'queue': 107}
+2025-08-21 10:15:30,602 - INFO - 正在爬取第 4 页: https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx
+2025-08-21 10:15:30,603 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'queue': 102}
+2025-08-21 10:15:30,780 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:30,861 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-21 10:15:30,862 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'queue': 110}
+2025-08-21 10:15:30,879 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 4, 'url': 'https://www.schdri.com/go.htm?k=qi_ye_xin_wen&url=xgly/xwzx', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:31,104 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:31,376 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-21 10:15:31,378 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'queue': 127}
+2025-08-21 10:15:31,647 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-21 10:15:31,648 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-21 10:15:31,648 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'new_phones': 0, 'new_contacts': 6}
+2025-08-21 10:15:31,787 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-21 10:15:31,788 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'queue': 110}
+2025-08-21 10:15:31,886 - INFO - 正在爬取第 5 页: https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list
+2025-08-21 10:15:31,887 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'queue': 107}
+2025-08-21 10:15:32,006 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:32,100 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 5, 'url': 'https://www.schdri.com/go.htm?k=guo_jia_ke_ji_jin_bu_jiang&url=cheng_guo_zhan_shi/zdgc_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:32,110 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-21 10:15:32,111 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'queue': 113}
+2025-08-21 10:15:32,369 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:32,655 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:32,658 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page1.mp4', 'queue': 138}
+2025-08-21 10:15:32,755 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:32,757 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:32,758 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page2.mp4', 'queue': 137}
+2025-08-21 10:15:32,851 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:32,853 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389
+2025-08-21 10:15:32,854 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'queue': 136}
+2025-08-21 10:15:33,013 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-21 10:15:33,014 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'queue': 113}
+2025-08-21 10:15:33,081 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:33,105 - INFO - 正在爬取第 6 页: https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng
+2025-08-21 10:15:33,106 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'queue': 110}
+2025-08-21 10:15:33,274 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:33,310 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 6, 'url': 'https://www.schdri.com/go.htm?k=zhong_dian_gong_cheng&url=cheng_guo_zhan_shi/zhong_dian_gong_cheng', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:33,375 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-21 10:15:33,377 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'queue': 127}
+2025-08-21 10:15:33,657 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-21 10:15:33,658 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-21 10:15:33,659 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'new_phones': 0, 'new_contacts': 6}
+2025-08-21 10:15:34,085 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388
+2025-08-21 10:15:34,086 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'queue': 137}
+2025-08-21 10:15:34,278 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-21 10:15:34,281 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'queue': 127}
+2025-08-21 10:15:34,316 - INFO - 正在爬取第 7 页: https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list
+2025-08-21 10:15:34,317 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'queue': 113}
+2025-08-21 10:15:34,320 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:34,321 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-21 10:15:34,322 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-21 10:15:34,322 - INFO - 任务 t1755742521502 发送事件: {'type': 'progress', 'pages': 10, 'queue': 138, 'phones': 2, 'contacts': 6}
+2025-08-21 10:15:34,582 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-21 10:15:34,583 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-21 10:15:34,583 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'new_phones': 0, 'new_contacts': 6}
+2025-08-21 10:15:34,606 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 7, 'url': 'https://www.schdri.com/go.htm?k=dang_jian_gong_zuo&url=dang_jian_wen_hua/djwh_list', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:34,666 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:34,666 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page1.mp4', 'queue': 138}
+2025-08-21 10:15:34,838 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:34,841 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:34,842 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page2.mp4', 'queue': 137}
+2025-08-21 10:15:34,938 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:34,941 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389
+2025-08-21 10:15:34,943 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'queue': 136}
+2025-08-21 10:15:35,230 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:35,326 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385
+2025-08-21 10:15:35,328 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'queue': 137}
+2025-08-21 10:15:35,563 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:35,590 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:35,590 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page1.mp4', 'queue': 138}
+2025-08-21 10:15:35,612 - INFO - 正在爬取第 8 页: https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg
+2025-08-21 10:15:35,614 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'queue': 127}
+2025-08-21 10:15:35,683 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:35,685 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:35,686 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page2.mp4', 'queue': 137}
+2025-08-21 10:15:35,794 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:35,796 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389
+2025-08-21 10:15:35,797 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'queue': 136}
+2025-08-21 10:15:35,896 - INFO - 页面 https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg 找到 0 个新手机号, 6 个新联系人
+2025-08-21 10:15:35,897 - INFO - 去重: 2 个重复手机号, 0 个重复联系人
+2025-08-21 10:15:35,898 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 8, 'url': 'https://www.schdri.com/go.htm?k=zhao_biao_gong_gao&url=xgly/gsgg', 'new_phones': 0, 'new_contacts': 6}
+2025-08-21 10:15:36,030 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:36,237 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388
+2025-08-21 10:15:36,239 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'queue': 137}
+2025-08-21 10:15:36,492 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:36,494 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-21 10:15:36,495 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-21 10:15:36,495 - INFO - 任务 t1755742523066 发送事件: {'type': 'progress', 'pages': 10, 'queue': 138, 'phones': 2, 'contacts': 6}
+2025-08-21 10:15:36,568 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-21 10:15:36,570 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'queue': 137}
+2025-08-21 10:15:36,821 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:36,905 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:36,907 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page1.mp4', 'queue': 138}
+2025-08-21 10:15:37,028 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page1.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page1.mp4
+2025-08-21 10:15:37,030 - INFO - 正在爬取第 9 页: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:37,031 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/res/default/image/page2.mp4', 'queue': 137}
+2025-08-21 10:15:37,037 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388
+2025-08-21 10:15:37,038 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'queue': 137}
+2025-08-21 10:15:37,193 - ERROR - 获取页面失败 https://www.schdri.com/res/default/image/page2.mp4: 404 Client Error:  for url: https://www.schdri.com/res/default/image/page2.mp4
+2025-08-21 10:15:37,194 - INFO - 正在爬取第 9 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389
+2025-08-21 10:15:37,194 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'queue': 136}
+2025-08-21 10:15:37,301 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:37,303 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-21 10:15:37,303 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-21 10:15:37,303 - INFO - 任务 t1755742524437 发送事件: {'type': 'progress', 'pages': 10, 'queue': 138, 'phones': 2, 'contacts': 6}
+2025-08-21 10:15:37,439 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 9, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14389', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:37,501 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385
+2025-08-21 10:15:37,502 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'queue': 137}
+2025-08-21 10:15:37,784 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:37,828 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-21 10:15:37,829 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'queue': 137}
+2025-08-21 10:15:38,057 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:38,306 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385
+2025-08-21 10:15:38,308 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'queue': 137}
+2025-08-21 10:15:38,444 - INFO - 正在爬取第 10 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388
+2025-08-21 10:15:38,446 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'queue': 137}
+2025-08-21 10:15:38,541 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:38,669 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 10, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14388', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:38,670 - INFO - 爬取进度: 已爬取 10 页，待爬取 138 页
+2025-08-21 10:15:38,671 - INFO - 已找到 2 个手机号，6 个联系人
+2025-08-21 10:15:38,671 - INFO - 任务 t1755742525693 发送事件: {'type': 'progress', 'pages': 10, 'queue': 138, 'phones': 2, 'contacts': 6}
+2025-08-21 10:15:38,789 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-21 10:15:38,791 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'queue': 137}
+2025-08-21 10:15:39,024 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:39,063 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-21 10:15:39,065 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'queue': 137}
+2025-08-21 10:15:39,300 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:39,547 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-21 10:15:39,550 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'queue': 137}
+2025-08-21 10:15:39,676 - INFO - 正在爬取第 11 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385
+2025-08-21 10:15:39,679 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'queue': 137}
+2025-08-21 10:15:39,786 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:39,958 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 11, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14385', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:40,030 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-21 10:15:40,031 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'queue': 137}
+2025-08-21 10:15:40,281 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:40,306 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-21 10:15:40,307 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'queue': 137}
+2025-08-21 10:15:40,552 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:40,793 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-21 10:15:40,794 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'queue': 137}
+2025-08-21 10:15:40,961 - INFO - 正在爬取第 12 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384
+2025-08-21 10:15:40,964 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'queue': 137}
+2025-08-21 10:15:41,036 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:41,210 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 12, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14384', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:41,288 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-21 10:15:41,290 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'queue': 137}
+2025-08-21 10:15:41,546 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:41,559 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-21 10:15:41,559 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 16, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369', 'queue': 137}
+2025-08-21 10:15:41,795 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 16, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:42,043 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-21 10:15:42,046 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'queue': 137}
+2025-08-21 10:15:42,214 - INFO - 正在爬取第 13 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383
+2025-08-21 10:15:42,216 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'queue': 137}
+2025-08-21 10:15:42,303 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:42,481 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 13, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14383', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:42,553 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-21 10:15:42,554 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'queue': 137}
+2025-08-21 10:15:42,802 - INFO - 正在爬取第 17 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368
+2025-08-21 10:15:42,803 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 17, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368', 'queue': 137}
+2025-08-21 10:15:42,826 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:43,305 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_result', 'index': 17, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14368', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:43,310 - INFO - 正在爬取第 15 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370
+2025-08-21 10:15:43,310 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_start', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'queue': 137}
+2025-08-21 10:15:43,488 - INFO - 正在爬取第 14 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376
+2025-08-21 10:15:43,490 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_start', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'queue': 137}
+2025-08-21 10:15:43,580 - INFO - 任务 t1755742524437 发送事件: {'type': 'page_result', 'index': 15, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14370', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:43,770 - INFO - 任务 t1755742525693 发送事件: {'type': 'page_result', 'index': 14, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14376', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:43,833 - INFO - 正在爬取第 16 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369
+2025-08-21 10:15:43,834 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_start', 'index': 16, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369', 'queue': 137}
+2025-08-21 10:15:44,080 - INFO - 任务 t1755742523066 发送事件: {'type': 'page_result', 'index': 16, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14369', 'new_phones': 0, 'new_contacts': 0}
+2025-08-21 10:15:44,307 - INFO - 正在爬取第 18 页: https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354
+2025-08-21 10:15:44,308 - INFO - 任务 t1755742521502 发送事件: {'type': 'page_start', 'index': 18, 'url': 'https://www.schdri.com/go.htm?url=dang_jian_wen_hua/djwh_details&k=qi_ye_xin_wen&id=14354', 'queue': 137}

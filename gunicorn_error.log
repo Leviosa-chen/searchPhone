@@ -1,0 +1,70 @@
+[2025-08-21 08:57:04 +0800] [76865] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 08:57:04 +0800] [76865] [INFO] Listening at: http://0.0.0.0:5000 (76865)
+[2025-08-21 08:57:04 +0800] [76865] [INFO] Using worker: sync
+[2025-08-21 08:57:04 +0800] [76878] [INFO] Booting worker with pid: 76878
+[2025-08-21 08:57:04 +0800] [76882] [INFO] Booting worker with pid: 76882
+[2025-08-21 09:07:22 +0800] [76865] [INFO] Handling signal: term
+[2025-08-21 09:07:22 +0800] [76878] [INFO] Worker exiting (pid: 76878)
+[2025-08-21 09:07:22 +0800] [76882] [INFO] Worker exiting (pid: 76882)
+[2025-08-21 09:07:22 +0800] [76865] [INFO] Shutting down: Master
+[2025-08-21 09:07:26 +0800] [9981] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:07:26 +0800] [9981] [INFO] Listening at: http://0.0.0.0:5000 (9981)
+[2025-08-21 09:07:26 +0800] [9981] [INFO] Using worker: sync
+[2025-08-21 09:07:26 +0800] [9985] [INFO] Booting worker with pid: 9985
+[2025-08-21 09:07:26 +0800] [9986] [INFO] Booting worker with pid: 9986
+[2025-08-21 09:08:21 +0800] [9981] [INFO] Handling signal: term
+[2025-08-21 09:08:21 +0800] [9985] [INFO] Worker exiting (pid: 9985)
+[2025-08-21 09:08:21 +0800] [9986] [INFO] Worker exiting (pid: 9986)
+[2025-08-21 09:08:21 +0800] [9981] [INFO] Shutting down: Master
+[2025-08-21 09:08:25 +0800] [13349] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:08:25 +0800] [13349] [INFO] Listening at: http://0.0.0.0:5000 (13349)
+[2025-08-21 09:08:25 +0800] [13349] [INFO] Using worker: sync
+[2025-08-21 09:08:25 +0800] [13351] [INFO] Booting worker with pid: 13351
+[2025-08-21 09:08:25 +0800] [13353] [INFO] Booting worker with pid: 13353
+[2025-08-21 09:12:03 +0800] [13349] [INFO] Handling signal: term
+[2025-08-21 09:12:03 +0800] [13353] [INFO] Worker exiting (pid: 13353)
+[2025-08-21 09:12:03 +0800] [13351] [INFO] Worker exiting (pid: 13351)
+[2025-08-21 09:12:03 +0800] [13349] [INFO] Shutting down: Master
+[2025-08-21 09:12:07 +0800] [25597] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:12:07 +0800] [25597] [INFO] Listening at: http://0.0.0.0:5000 (25597)
+[2025-08-21 09:12:07 +0800] [25597] [INFO] Using worker: sync
+[2025-08-21 09:12:07 +0800] [25602] [INFO] Booting worker with pid: 25602
+[2025-08-21 09:12:07 +0800] [25606] [INFO] Booting worker with pid: 25606
+[2025-08-21 09:14:25 +0800] [25597] [INFO] Handling signal: term
+[2025-08-21 09:14:25 +0800] [25606] [INFO] Worker exiting (pid: 25606)
+[2025-08-21 09:14:39 +0800] [32546] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:14:39 +0800] [32546] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-08-21 09:14:39 +0800] [32546] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-08-21 09:14:40 +0800] [32546] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-08-21 09:14:40 +0800] [32546] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-08-21 09:14:41 +0800] [32546] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-08-21 09:14:41 +0800] [32546] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-08-21 09:14:42 +0800] [32546] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-08-21 09:14:42 +0800] [32546] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-08-21 09:14:42 +0800] [25602] [INFO] Worker exiting (pid: 25602)
+[2025-08-21 09:14:43 +0800] [32546] [INFO] Listening at: http://0.0.0.0:5000 (32546)
+[2025-08-21 09:14:43 +0800] [32546] [INFO] Using worker: sync
+[2025-08-21 09:14:43 +0800] [32670] [INFO] Booting worker with pid: 32670
+[2025-08-21 09:14:43 +0800] [32671] [INFO] Booting worker with pid: 32671
+[2025-08-21 09:15:01 +0800] [32546] [INFO] Handling signal: term
+[2025-08-21 09:15:01 +0800] [32671] [INFO] Worker exiting (pid: 32671)
+[2025-08-21 09:15:01 +0800] [32670] [INFO] Worker exiting (pid: 32670)
+[2025-08-21 09:15:01 +0800] [32546] [INFO] Shutting down: Master
+[2025-08-21 09:15:05 +0800] [35052] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:15:05 +0800] [35052] [INFO] Listening at: http://0.0.0.0:5000 (35052)
+[2025-08-21 09:15:05 +0800] [35052] [INFO] Using worker: sync
+[2025-08-21 09:15:05 +0800] [35054] [INFO] Booting worker with pid: 35054
+[2025-08-21 09:15:05 +0800] [35055] [INFO] Booting worker with pid: 35055
+[2025-08-21 09:20:17 +0800] [35052] [INFO] Handling signal: term
+[2025-08-21 09:20:17 +0800] [35055] [INFO] Worker exiting (pid: 35055)
+[2025-08-21 09:20:17 +0800] [35054] [INFO] Worker exiting (pid: 35054)
+[2025-08-21 09:20:17 +0800] [35052] [INFO] Shutting down: Master
+[2025-08-21 09:20:21 +0800] [51589] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 09:20:21 +0800] [51589] [INFO] Listening at: http://0.0.0.0:5000 (51589)
+[2025-08-21 09:20:21 +0800] [51589] [INFO] Using worker: sync
+[2025-08-21 09:20:21 +0800] [51591] [INFO] Booting worker with pid: 51591
+[2025-08-21 09:20:21 +0800] [51592] [INFO] Booting worker with pid: 51592
+[2025-08-21 09:29:01 +0800] [51589] [INFO] Handling signal: term
+[2025-08-21 09:29:01 +0800] [51592] [INFO] Worker exiting (pid: 51592)
+[2025-08-21 09:29:01 +0800] [51591] [INFO] Worker exiting (pid: 51591)
+[2025-08-21 09:29:01 +0800] [51589] [INFO] Shutting down: Master
