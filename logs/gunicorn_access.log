@@ -169,3 +169,4 @@
 127.0.0.1 - - [21/Aug/2025:10:15:26 +0800] "GET /api/events?task_id=t1755742523066 HTTP/1.1" 200 102 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 127.0.0.1 - - [21/Aug/2025:10:15:28 +0800] "POST /api/scrape HTTP/1.1" 200 151 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 127.0.0.1 - - [21/Aug/2025:10:15:28 +0800] "GET /api/events?task_id=t1755742523066 HTTP/1.1" 200 102 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+127.0.0.1 - - [21/Aug/2025:10:19:17 +0800] "GET /health HTTP/1.1" 200 46 "-" "curl/8.4.0"

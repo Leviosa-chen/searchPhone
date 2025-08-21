@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试重复任务创建</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; }
+        .result { margin: 10px 0; padding: 10px; background: #f5f5f5; }
+        button { margin: 5px; padding: 10px 20px; }
+        input { margin: 5px; padding: 5px; width: 300px; }
+    </style>
+</head>
+<body>
+    <h1>测试重复任务创建问题</h1>
+    
+    <div class="test-section">
+        <h3>测试步骤</h3>
+        <p>1. 输入URL并点击"第一次爬取"</p>
+        <p>2. 等待3秒后点击"第二次爬取相同URL"</p>
+        <p>3. 观察是否创建了重复任务</p>
+    </div>
+    
+    <div class="test-section">
+        <h3>测试URL</h3>
+        <input type="url" id="testUrl" value="https://httpbin.org/html" placeholder="输入测试URL">
+        <input type="number" id="maxPages" value="1" min="1" max="100" placeholder="最大页数">
+        <input type="checkbox" id="reScrape"> <label for="reScrape">重新爬取</label>
+    </div>
+    
+    <div class="test-section">
+        <h3>操作按钮</h3>
+        <button onclick="firstScrape()">第一次爬取</button>
+        <button onclick="secondScrape()">第二次爬取相同URL</button>
+        <button onclick="clearResults()">清空结果</button>
+    </div>
+    
+    <div class="test-section">
+        <h3>测试结果</h3>
+        <div id="results"></div>
+    </div>
+    
+    <script>
+        let firstTaskId = null;
+        
+        function addResult(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = `result ${type}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}</strong>: ${message}`;
+            results.appendChild(div);
+        }
+        
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+            firstTaskId = null;
+        }
+        
+        async function firstScrape() {
+            const url = document.getElementById('testUrl').value.trim();
+            const maxPages = parseInt(document.getElementById('maxPages').value || '1');
+            const reScrape = document.getElementById('reScrape').checked;
+            
+            if (!url) {
+                addResult('请输入URL', 'error');
+                return;
+            }
+            
+            addResult(`开始第一次爬取: ${url}`, 'info');
+            
+            try {
+                const response = await fetch('/api/scrape', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        url, 
+                        max_pages: maxPages,
+                        re_scrape: reScrape
+                    })
+                });
+                
+                const data = await response.json();
+                addResult(`第一次爬取响应: ${JSON.stringify(data)}`, 'info');
+                
+                if (data.status === 'new_task') {
+                    firstTaskId = data.task_id;
+                    addResult(`✅ 第一个任务创建成功，ID: ${firstTaskId}`, 'success');
+                } else {
+                    addResult(`❌ 第一个任务创建失败，状态: ${data.status}`, 'error');
+                }
+            } catch (error) {
+                addResult(`❌ 第一次爬取异常: ${error.message}`, 'error');
+            }
+        }
+        
+        async function secondScrape() {
+            if (!firstTaskId) {
+                addResult('❌ 请先执行第一次爬取', 'error');
+                return;
+            }
+            
+            const url = document.getElementById('testUrl').value.trim();
+            const maxPages = parseInt(document.getElementById('maxPages').value || '1');
+            const reScrape = document.getElementById('reScrape').checked;
+            
+            addResult(`开始第二次爬取相同URL: ${url}`, 'info');
+            
+            try {
+                const response = await fetch('/api/scrape', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        url, 
+                        max_pages: maxPages,
+                        re_scrape: reScrape
+                    })
+                });
+                
+                const data = await response.json();
+                addResult(`第二次爬取响应: ${JSON.stringify(data)}`, 'info');
+                
+                if (data.status === 'running') {
+                    addResult(`✅ 返回进行中状态，不会创建新任务`, 'success');
+                } else if (data.status === 'new_task') {
+                    addResult(`❌ 仍然创建了新任务，问题未修复`, 'error');
+                    addResult(`新任务ID: ${data.task_id}`, 'error');
+                } else if (data.status === 'failed') {
+                    addResult(`✅ 返回失败状态，避免重复创建`, 'success');
+                } else {
+                    addResult(`❌ 第二次提交状态异常: ${data.status}`, 'error');
+                }
+            } catch (error) {
+                addResult(`❌ 第二次爬取异常: ${error.message}`, 'error');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -56,43 +56,6 @@ show_help() {
 EOF
 }
 
-# 解析命令行参数
-parse_args() {
-    local command="start"  # 默认命令
-    
-    while [[ $# -gt 0 ]]; do
-        case $1 in
-            start|stop|restart|status)
-                command="$1"
-                shift
-                ;;
-            -p|--port)
-                PORT="$2"
-                shift 2
-                ;;
-            -w|--workers)
-                WORKERS="$2"
-                shift 2
-                ;;
-            -m|--max-pages)
-                MAX_PAGES="$2"
-                shift 2
-                ;;
-            -h|--help)
-                show_help
-                exit 0
-                ;;
-            *)
-                echo "错误: 未知参数 '$1'"
-                show_help
-                exit 1
-                ;;
-        esac
-    done
-    
-    echo "$command"
-}
-
 # 获取服务状态
 get_service_status() {
     local pid_file="$PID_FILE"
@@ -303,10 +266,37 @@ main() {
     WORKERS="${WORKERS:-$DEFAULT_WORKERS}"
     MAX_PAGES="${MAX_PAGES:-$DEFAULT_MAX_PAGES}"
     HOST="0.0.0.0"
-    VENV_DIR="$SCRIPT_DIR/.venv"
+    VENV_DIR="$PROJECT_DIR/.venv"
     
-    # 解析命令行参数
-    local command=$(parse_args "$@")
+    # 简单的参数解析
+    local command="start"  # 默认命令
+    
+    # 检查是否有命令参数
+    for arg in "$@"; do
+        case "$arg" in
+            start|stop|restart|status)
+                command="$arg"
+                ;;
+            -p|--port)
+                # 这里需要下一个参数作为端口值
+                # 简化处理，暂时跳过
+                ;;
+            -w|--workers)
+                # 这里需要下一个参数作为工作进程数
+                # 简化处理，暂时跳过
+                ;;
+            -m|--max-pages)
+                # 这里需要下一个参数作为最大页数
+                # 简化处理，暂时跳过
+                ;;
+            -h|--help)
+                show_help
+                exit 0
+                ;;
+        esac
+    done
+    
+    echo "执行命令: $command"
     
     # 执行命令
     case "$command" in

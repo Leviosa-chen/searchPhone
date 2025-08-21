@@ -558,3 +558,29 @@ ImportError: cannot import name 'OUTPUT_DIR' from 'core.config' (/Users/chenjunl
 [2025-08-21 10:15:08 +0800] [32592] [INFO] Booting worker with pid: 32592
 [2025-08-21 10:15:08 +0800] [32595] [INFO] Booting worker with pid: 32595
 [2025-08-21 10:15:08 +0800] [32596] [INFO] Booting worker with pid: 32596
+[2025-08-21 10:19:12 +0800] [32585] [INFO] Handling signal: term
+[2025-08-21 10:19:12 +0800] [32592] [INFO] Worker exiting (pid: 32592)
+[2025-08-21 10:19:12 +0800] [32587] [INFO] Worker exiting (pid: 32587)
+[2025-08-21 10:19:12 +0800] [32595] [INFO] Worker exiting (pid: 32595)
+[2025-08-21 10:19:12 +0800] [32596] [INFO] Worker exiting (pid: 32596)
+[2025-08-21 10:19:12 +0800] [32585] [INFO] Shutting down: Master
+[2025-08-21 10:19:14 +0800] [44910] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 10:19:14 +0800] [44910] [INFO] Listening at: http://0.0.0.0:5000 (44910)
+[2025-08-21 10:19:14 +0800] [44910] [INFO] Using worker: sync
+[2025-08-21 10:19:14 +0800] [44916] [INFO] Booting worker with pid: 44916
+[2025-08-21 10:19:14 +0800] [44918] [INFO] Booting worker with pid: 44918
+[2025-08-21 10:19:14 +0800] [44921] [INFO] Booting worker with pid: 44921
+[2025-08-21 10:19:14 +0800] [44922] [INFO] Booting worker with pid: 44922
+[2025-08-21 10:21:09 +0800] [44910] [INFO] Handling signal: term
+[2025-08-21 10:21:09 +0800] [44916] [INFO] Worker exiting (pid: 44916)
+[2025-08-21 10:21:09 +0800] [44918] [INFO] Worker exiting (pid: 44918)
+[2025-08-21 10:21:09 +0800] [44921] [INFO] Worker exiting (pid: 44921)
+[2025-08-21 10:21:09 +0800] [44922] [INFO] Worker exiting (pid: 44922)
+[2025-08-21 10:21:09 +0800] [44910] [INFO] Shutting down: Master
+[2025-08-21 10:21:13 +0800] [50917] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 10:21:14 +0800] [50917] [INFO] Listening at: http://0.0.0.0:5000 (50917)
+[2025-08-21 10:21:14 +0800] [50917] [INFO] Using worker: sync
+[2025-08-21 10:21:14 +0800] [50923] [INFO] Booting worker with pid: 50923
+[2025-08-21 10:21:14 +0800] [50925] [INFO] Booting worker with pid: 50925
+[2025-08-21 10:21:14 +0800] [50926] [INFO] Booting worker with pid: 50926
+[2025-08-21 10:21:14 +0800] [50927] [INFO] Booting worker with pid: 50927
