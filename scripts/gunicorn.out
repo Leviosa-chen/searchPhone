@@ -4,46 +4,5 @@
   warnings.warn(
 /Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
   warnings.warn(
-Traceback (most recent call last):
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 201, in run
-    self.manage_workers()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 570, in manage_workers
-    self.spawn_workers()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
-    time.sleep(0.1 * random.random())
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
-    self.reap_workers()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 529, in reap_workers
-    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/chenjunliang/project/python/get_phone/.venv/bin/gunicorn", line 7, in <module>
-    sys.exit(run())
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 66, in run
-    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 235, in run
-    super().run()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 71, in run
-    Arbiter(self).run()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 228, in run
-    self.halt(reason=inst.reason, exit_status=inst.exit_status)
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 341, in halt
-    self.stop()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 384, in stop
-    sock.close_sockets(self.LISTENERS, unlink)
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/sock.py", line 210, in close_sockets
-    sock.close()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/sock.py", line 67, in close
-    self.sock.close()
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 501, in close
-    self._real_close()
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 493, in _real_close
-    def _real_close(self, _ss=_socket.socket):
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
-    self.reap_workers()
-  File "/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 529, in reap_workers
-    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+/Users/chenjunliang/project/python/get_phone/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(

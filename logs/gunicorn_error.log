@@ -584,3 +584,16 @@ ImportError: cannot import name 'OUTPUT_DIR' from 'core.config' (/Users/chenjunl
 [2025-08-21 10:21:14 +0800] [50925] [INFO] Booting worker with pid: 50925
 [2025-08-21 10:21:14 +0800] [50926] [INFO] Booting worker with pid: 50926
 [2025-08-21 10:21:14 +0800] [50927] [INFO] Booting worker with pid: 50927
+[2025-08-21 10:21:26 +0800] [50917] [INFO] Handling signal: term
+[2025-08-21 10:21:26 +0800] [50923] [INFO] Worker exiting (pid: 50923)
+[2025-08-21 10:21:26 +0800] [50926] [INFO] Worker exiting (pid: 50926)
+[2025-08-21 10:21:26 +0800] [50927] [INFO] Worker exiting (pid: 50927)
+[2025-08-21 10:21:26 +0800] [50925] [INFO] Worker exiting (pid: 50925)
+[2025-08-21 10:21:26 +0800] [50917] [INFO] Shutting down: Master
+[2025-08-21 10:21:34 +0800] [52003] [INFO] Starting gunicorn 23.0.0
+[2025-08-21 10:21:34 +0800] [52003] [INFO] Listening at: http://0.0.0.0:5000 (52003)
+[2025-08-21 10:21:34 +0800] [52003] [INFO] Using worker: sync
+[2025-08-21 10:21:34 +0800] [52005] [INFO] Booting worker with pid: 52005
+[2025-08-21 10:21:34 +0800] [52012] [INFO] Booting worker with pid: 52012
+[2025-08-21 10:21:34 +0800] [52013] [INFO] Booting worker with pid: 52013
+[2025-08-21 10:21:34 +0800] [52014] [INFO] Booting worker with pid: 52014
